@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <Windows.h>
 #include <fstream>
+#include <random>
 using std::cin;
 using std::cout;
 using std::string;
@@ -9,6 +10,10 @@ using std::ifstream;
 using std::setprecision;
 using std::endl;
 using std::setw;
+using std::random_device;
+using std::mt19937;
+using std::uniform_real_distribution;
+-std=c11;
 int main()
 {
     ifstream fd("duom.txt");
@@ -34,7 +39,7 @@ int main()
     {
         cout<<"iveskite iverciu skaiciu"<<endl;
         cin>>n;
-        cout<<"kaip vertinsime?"<<endl<<"1 - vidurkis   2 - mediana"<<endl;
+        cout<<"kaip vertinsime?"<<endl<<"1 - vidurkis   2 - mediana  3 - random"<<endl;
         cin>>k;
         if(k==1)
         {
@@ -52,6 +57,15 @@ int main()
                 if(n/2==i)
                     medi=balai[i];
             }
+        }
+        if(k==3)
+        {
+            std::random_device rd;
+            std::mt19937 mt(rd());
+            std::uniform_real_distribution<double> dist(1.0, 10.0);
+
+            for (int i=0; i<n; ++i)
+                cout << dist(mt) << "\n";
         }
         cout<<"iveskite ezamino rezultata"<<endl;
         cin>>egzaminas;
