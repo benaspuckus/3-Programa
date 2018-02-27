@@ -42,11 +42,12 @@ int main()
         cout<<"kiek pazymiu turejo?"<<endl;
         cin>>n;
         int o=0;
-        while(fd.eof())
+        while(!fd.eof())
         {
             fd>>a[o].vard>>a[o].pav;
-            cout<<a[0].pav;
-            for(int i=0;i<=n;i++)
+            cout<<a[o].vard<<"  ";
+
+            for(int i=0;i<n;i++)
             {
                 fd>>a[o].paz[i];
                 a[o].vid=a[o].paz[i]+a[o].vid;
@@ -54,17 +55,21 @@ int main()
                     a[o].med=a[o].paz[i];
             }
             fd>>a[o].egz;
+            a[o].vid=a[o].vid/n;
+
         o++;
         }
-        for(int i=0;i<n;i++)
-            for(int j=i+1;j<n-1;j++)
+       for(int i=0;i<n;i++)
+            for(int j=i+1;j<n-2;j++)
             {if(a[i].vard>a[j].vard)
             swap(a[i],a[j]);}
-
         fr<<"Vardas   Pavarde   vidurkis   mediana"<<endl;
-        for(int i=0;i<=o;i++)
-        {
-            fr<<a[o].vard<<"  "<<a[o].pav<<"  "<<a[o].vid<<"  "<<a[o].med<<endl;
+        for(int i=0;i<o;i++)
+        {   vardas=a[i].vard;
+            pavarde=a[i].pav;
+            vardas.resize(9);
+            pavarde.resize(9);
+            fr<<vardas<<"  "<<pavarde<<"  "<<a[i].vid<<"         "<<a[i].med<<endl;
         }
         fr.close();
         fd.close();
