@@ -138,7 +138,7 @@ int main()
                 }
                 for(int i=0; i<n; i++) // iesko medianos
                 {
-                    if(i/2==j && i%10!=0)
+                    if(i/2==i && i%10!=0)
                     medi=balai[i];
                 else
                     medi=(balai[i]+balai[i+1])/2;
