@@ -4,6 +4,7 @@
 #include <Windows.h>
 #include <fstream>
 #include <algorithm>
+#include "studentai.h"
 #include <sstream>
 #include <random>
 using std::cin;
@@ -18,7 +19,7 @@ using std::setw;
 using std::random_device;
 using std::mt19937;
 using std::uniform_real_distribution;
-struct studentas
+/*struct studentas
 {
     string vard;
     string pav;
@@ -26,7 +27,7 @@ struct studentas
     int egz;
     double vid;
     double med;
-};
+};*/
 int main()
 {
     studentas a[50];
