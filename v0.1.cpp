@@ -1,26 +1,33 @@
 #include <iostream>
 #include <iomanip>
+#include<cmath>
 #include <Windows.h>
 #include <fstream>
+#include <algorithm>
 #include <random>
 using std::cin;
 using std::cout;
 using std::string;
 using std::ifstream;
+using std::ofstream;
 using std::setprecision;
+using std::swap;
 using std::endl;
 using std::setw;
 using std::random_device;
 using std::mt19937;
 using std::uniform_real_distribution;
+struct studentas {string vard; string pav; int paz[50]; int egz; double vid; double med;};
 int main()
-{
+{   studentas a[50];
     ifstream fd("duom.txt");
+    ofstream fr("rez.txt");
     string vardas;
     string pavarde;
     int n;
     int k;
     int u;
+    int f;
     int medi=0;
 
     double balai[50];
@@ -28,7 +35,43 @@ int main()
     double galutinis;
     double egzaminas;
     int t;
-    cout<<"iveskite varda"<<endl;
+    cout<<"ar ivesite duomenis, ar skaitysime is failo? 1 - ivesiu 2 - is failo"<<endl;
+    cin>>t;
+    if(t==2)
+    {
+        cout<<"kiek pazymiu turejo?"<<endl;
+        cin>>n;
+        int o=0;
+        while(!fd.eof())
+        {
+            fd>>a[o].vard>>a[o].pav;
+
+            for(int i=0;i<=n;i++)
+            {
+                fd>>a[o].paz[i];
+                cout<<a[o].paz[i]<<"  "<<endl;
+                a[o].vid=a[o].paz[i]+a[o].vid;
+                if(n/2==i)
+                    a[o].med=a[o].paz[i];
+            }
+            fd>>a[o].egz;
+        o++;
+        }
+        for(int i=0;i<n;i++)
+            for(int j=i+1;j<n-1;j++)
+            {if(a[i].vard>a[j].vard)
+            swap(a[i],a[j]);}
+
+        fr<<"Vardas   Pavarde   vidurkis   mediana"<<endl;
+        for(int i=0;i<=o;i++)
+        {
+            fr<<a[o].vard<<"  "<<a[o].pav<<"  "<<a[o].vid<<"  "<<a[o].med<<endl;
+        }
+        fr.close();
+        fd.close();
+    }
+    if(t==1)
+    {cout<<"iveskite varda"<<endl;
     cin>>vardas;
     cout<<"iveskite pavarde"<<endl;
     cin>>pavarde;
@@ -138,6 +181,7 @@ int main()
         return 0;
 
     }
+}
 }
 
 

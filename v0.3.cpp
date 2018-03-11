@@ -88,7 +88,6 @@ int main()
             vardas=a[i].vard;
             pavarde=a[i].pav;
 
-            g=a[i].vid;
             vardas.resize(9); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
             pavarde.resize(9);
             fr<<vardas<<"  "<<pavarde<<"  "<<setprecision(2)<<setw(8)<<a[i].vid<<"         "<<a[i].med<<endl;
@@ -117,7 +116,13 @@ int main()
                 for(int i=0; i<n; i++) //iveda pazymius i masyva
                 {
                     cin>>balai[i];
+                    if(balai[i]>0&&balai[i]<=10)
                     vidurkis=balai[i]+vidurkis;
+                    else
+                    {
+                        i--;
+                        cout<<"iveskite teisinga skaiciu"<<endl;
+                    }
                 }
             }
             if(k==2) //jeigu skaiciuosime pagal mediana
@@ -126,7 +131,13 @@ int main()
                 for(int i=0; i<n; i++) //iveda pazymius
                 {
                     cin>>balai[i];
+                    if(balai[i]>0&&balai[i]<=10)
                     vidurkis=balai[i]+vidurkis;
+                    else
+                    {
+                        i--;
+                        cout<<"iveskite teisinga skaiciu"<<endl;
+                    }
                 }
                 for(int i=0; i<n; i++) // iesko medianos
                 {
@@ -167,7 +178,13 @@ int main()
             {
                 cout<<"iveskite skaiciu: ";
                 cin>>balai[i];
-                vidurkis=balai[i]+vidurkis;
+                if(balai[i]>=0&&balai[i]<=10)
+                    vidurkis=balai[i]+vidurkis;
+                    else
+                    {
+                        i--;
+                        cout<<"iveskite teisinga skaiciu"<<endl;
+                    }
 
                 if(balai[i]==0) // jeigu ivedame nuli
                 {
@@ -182,33 +199,34 @@ int main()
             {
                 for(int j=0; j<i; j++)
                 {
-                    vidurkis=balai[i]+vidurkis;
+                    vidurkis=balai[j]+vidurkis;
                 }
             }
             if(k==2)
             {
                 for(int j=0; j<i; j++)
                 {
-                    vidurkis=balai[i]+vidurkis;
+                    vidurkis=balai[j]+vidurkis;
                 }
                 for(int j=0; j<i; j++)
                 {
                            if(i/2==j && i%10!=0)
-                    medi=balai[i];
+                    vidurkis=balai[j];
                 else
-                    medi=(balai[i]+balai[i+1])/2;
+                    vidurkis=(balai[j]+balai[j+1])/2;
                 }
             }
             cout<<"iveskite egzamino rezultata"<<endl;
             cin>>egzaminas;
-            galutinis=0.4*(vidurkis/n)+0.6*egzaminas;
+            if(k==1) galutinis=0.4*(vidurkis/i)+0.6*egzaminas;
+            if(k==2) galutinis=0.4*(vidurkis)+0.6*egzaminas;
             cout<<vardas<<"  "<<pavarde<<"  "<<endl<<"pazymiai:"<<endl;
 
             for(int j=0; j<i; j++)
             {
                 cout<<balai[j]<<"  ";
             }
-            cout<<endl<<"egzamino rezultatas: "<<egzaminas<<"  galutinis: "<<setprecision(3)<<galutinis;
+            cout<<endl<<" egzamino rezultatas: "<<egzaminas<<"  galutinis: "<<setprecision(3)<<galutinis;
             return 0;
 
         }
