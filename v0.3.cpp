@@ -34,7 +34,7 @@ int main()
     int x;
     int f;
     int medi=0;
-    vector <int> v;
+    //vector <int> v;
 
     double balai[50];
     double vidurkis=0;
@@ -61,18 +61,18 @@ int main()
             iss>>a[o].pav;
             while (iss >> g) //ivedineja, kol yra pazymiu
             {
-                a[o].paz[i]=g;
-                a[o].vid=a[o].paz[i]+a[o].vid;
+                a[o].v.push_back(g);
+                a[o].vid=a[o].v[i]+a[o].vid;
                 i++;
             }
-            a[o].egz=a[o].paz[i];
+            a[o].egz=a[o].v[i];
             a[o].vid=a[o].vid/(i+1);
-            for(int j=0;j<i;j++) //iesko medianos
+            for(int j=0; j<i; j++) //iesko medianos
             {
                 if(i/2==j && i%10!=0)
-                    a[o].med=a[o].paz[j-1];
+                    a[o].med=a[o].v[j-1];
                 else
-                    a[i].med=(a[o].paz[j]+a[o].paz[j+1])/2;
+                    a[i].med=(a[o].v[j]+a[o].v[j+1])/2;
             }
             o++;
             i=0;
@@ -89,12 +89,10 @@ int main()
         fr<<"Vardas     Pavarde       vidurkis   mediana"<<endl;
         for(int i=0; i<o; i++)
         {
-            vardas=a[i].vard;
-            pavarde=a[i].pav;
 
-            vardas.resize(9); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
-            pavarde.resize(9);
-            fr<<vardas<<"  "<<pavarde<<"  "<<setprecision(2)<<setw(8)<<a[i].vid<<"         "<<a[i].med<<endl;
+            a[i].vard.resize(9); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
+            a[i].pav.resize(9);
+            fr<<a[i].vard<<"  "<<a[i].pav<<"  "<<setprecision(2)<<setw(8)<<a[i].vid<<"         "<<a[i].med<<endl;
         }
         fr.close();
         fd.close();
@@ -102,9 +100,9 @@ int main()
     if(l==1)
     {
         cout<<"iveskite varda"<<endl;
-        cin>>vardas;
+        cin>>a[0].vard;
         cout<<"iveskite pavarde"<<endl;
-        cin>>pavarde;
+        cin>>a[0].pav;
         cout<<"ar zinote namu darbu iverinimu skaiciu?"<<endl<<"1 - taip, zinau  2 - ne, dar nezinau"<<endl;
         cin>>t;
         if(t==1) //jeigu zinome pazymiu skaiciu
@@ -121,8 +119,10 @@ int main()
                 {
                     cin>>x;
                     if(x>0&&x<=10)
-                    {vidurkis=x+vidurkis;
-                    v.push_back(x);}
+                    {
+                        vidurkis=x+vidurkis;
+                        a[0].v.push_back(x);
+                    }
                     else
                     {
                         i--;
@@ -137,8 +137,10 @@ int main()
                 {
                     cin>>x;
                     if(x>0&&x<=10)
-                    {vidurkis=balai[i]+vidurkis;
-                    v.push_back(x);}
+                    {
+                        vidurkis=balai[i]+vidurkis;
+                        a[0].v.push_back(x);
+                    }
                     else
                     {
                         i--;
@@ -148,9 +150,9 @@ int main()
                 for(int i=0; i<n; i++) // iesko medianos
                 {
                     if(i/2==i && i%10!=0)
-                    medi=v[i];
-                else
-                    medi=(v[i]+v[i+1])/2;
+                        medi=a[0].v[i];
+                    else
+                        medi=(a[0].v[i]+a[0].v[i+1])/2;
                 }
             }
             if(k==3) //random generuoja skaicius. Tiek, kiek yra n
@@ -160,19 +162,20 @@ int main()
                 std::uniform_real_distribution<double> dist(1.0, 10.0);
 
                 for (int i=0; i<=n; ++i)
-                    v[i]=dist(mt);
+                    a[0].v[i]=dist(mt);
             }
             cout<<"iveskite egzamino rezultata"<<endl;
-            cin>>egzaminas;
-            galutinis=0.4*(vidurkis/n)+0.6*egzaminas; //paskaiciuojamas galutinis pazimys
-            cout<<vardas<<"  "<<pavarde<<"  "<<endl;
+            cin>>x;
+
+            galutinis=0.4*(vidurkis/n)+0.6*a[0].egz; //paskaiciuojamas galutinis pazimys
+            cout<<a[0].vard<<"  "<<a[0].pav<<"  "<<endl;
             cout<<"pazymiai:"<<endl;
             for(int i=0; i<n; i++) // isveda turimus pazymius
             {
-                cout<<v[i]<<"  ";
+                cout<<a[0].v[i]<<"  ";
             }
 
-            cout<<endl<<"egzamino rezultatas: "<<egzaminas<<"  galutinis: "<<setprecision(3)<<galutinis;
+            cout<<endl<<"egzamino rezultatas: "<<a[0].egz<<"  galutinis: "<<setprecision(3)<<galutinis;
             return 0;
         }
         if(t==2) //jeigu skaiciu nezinome
@@ -185,13 +188,15 @@ int main()
                 cout<<"iveskite skaiciu: ";
                 cin>>x;
                 if(x>=0&&x<=10)
-                    {vidurkis=x+vidurkis;
-                    v.push_back(x);}
-                    else
-                    {
-                        i--;
-                        cout<<"iveskite teisinga skaiciu"<<endl;
-                    }
+                {
+                    vidurkis=x+vidurkis;
+                    a[0].v.push_back(x);
+                }
+                else
+                {
+                    i--;
+                    cout<<"iveskite teisinga skaiciu"<<endl;
+                }
 
                 if(x==0) // jeigu ivedame nuli
                 {
@@ -206,34 +211,36 @@ int main()
             {
                 for(int j=0; j<i; j++)
                 {
-                    vidurkis=v[j]+vidurkis;
+                    vidurkis=a[0].v[j]+vidurkis;
                 }
             }
             if(k==2)
             {
                 for(int j=0; j<i; j++)
                 {
-                    vidurkis=v[j]+vidurkis;
+                    vidurkis=a[0].v[j]+vidurkis;
                 }
                 for(int j=0; j<i; j++)
                 {
-                           if(i/2==j && i%10!=0)
-                    vidurkis=v[j];
-                else
-                    vidurkis=(v[j]+v[j+1])/2;
+                    if(i/2==j && i%10!=0)
+                        vidurkis=a[0].v[j];
+                    else
+                        vidurkis=(a[0].v[j]+a[0].v[j+1])/2;
                 }
             }
             cout<<"iveskite egzamino rezultata"<<endl;
-            cin>>egzaminas;
-            if(k==1) galutinis=0.4*(vidurkis/i)+0.6*egzaminas;
-            if(k==2) galutinis=0.4*(vidurkis)+0.6*egzaminas;
-            cout<<vardas<<"  "<<pavarde<<"  "<<endl<<"pazymiai:"<<endl;
+            cin>>a[0].egz;
+            if(k==1)
+                galutinis=0.4*(vidurkis/i)+0.6*a[0].egz;
+            if(k==2)
+                galutinis=0.4*(vidurkis)+0.6*a[0].egz;
+            cout<<a[0].vard<<"  "<<a[0].pav<<"  "<<endl<<"pazymiai:"<<endl;
 
             for(int j=0; j<i; j++)
             {
-                cout<<v[j]<<"  ";
+                cout<<a[0].v[j]<<"  ";
             }
-            cout<<endl<<" egzamino rezultatas: "<<egzaminas<<"  galutinis: "<<setprecision(3)<<galutinis;
+            cout<<endl<<" egzamino rezultatas: "<<a[0].egz<<"  galutinis: "<<setprecision(3)<<galutinis;
             return 0;
 
         }
