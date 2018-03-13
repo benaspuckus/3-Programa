@@ -6,6 +6,7 @@
 #include <algorithm>
 #include "studentai.h"
 #include <sstream>
+#include <vector>
 #include <random>
 using std::cin;
 using std::cout;
@@ -15,6 +16,7 @@ using std::ofstream;
 using std::setprecision;
 using std::swap;
 using std::endl;
+using std::vector;
 using std::setw;
 using std::random_device;
 using std::mt19937;
@@ -29,8 +31,10 @@ int main()
     int n;
     int k;
     int u;
+    int x;
     int f;
     int medi=0;
+    vector <int> v;
 
     double balai[50];
     double vidurkis=0;
@@ -115,9 +119,10 @@ int main()
                 cout<<"iveskite "<<n<<" pazymius"<<endl;
                 for(int i=0; i<n; i++) //iveda pazymius i masyva
                 {
-                    cin>>balai[i];
-                    if(balai[i]>0&&balai[i]<=10)
-                    vidurkis=balai[i]+vidurkis;
+                    cin>>x;
+                    if(x>0&&x<=10)
+                    {vidurkis=x+vidurkis;
+                    v.push_back(x);}
                     else
                     {
                         i--;
@@ -130,9 +135,10 @@ int main()
                 cout<<"iveskite "<<n<<" pazymius"<<endl;
                 for(int i=0; i<n; i++) //iveda pazymius
                 {
-                    cin>>balai[i];
-                    if(balai[i]>0&&balai[i]<=10)
-                    vidurkis=balai[i]+vidurkis;
+                    cin>>x;
+                    if(x>0&&x<=10)
+                    {vidurkis=balai[i]+vidurkis;
+                    v.push_back(x);}
                     else
                     {
                         i--;
@@ -142,9 +148,9 @@ int main()
                 for(int i=0; i<n; i++) // iesko medianos
                 {
                     if(i/2==i && i%10!=0)
-                    medi=balai[i];
+                    medi=v[i];
                 else
-                    medi=(balai[i]+balai[i+1])/2;
+                    medi=(v[i]+v[i+1])/2;
                 }
             }
             if(k==3) //random generuoja skaicius. Tiek, kiek yra n
@@ -154,7 +160,7 @@ int main()
                 std::uniform_real_distribution<double> dist(1.0, 10.0);
 
                 for (int i=0; i<=n; ++i)
-                    balai[i]=dist(mt);
+                    v[i]=dist(mt);
             }
             cout<<"iveskite egzamino rezultata"<<endl;
             cin>>egzaminas;
@@ -163,7 +169,7 @@ int main()
             cout<<"pazymiai:"<<endl;
             for(int i=0; i<n; i++) // isveda turimus pazymius
             {
-                cout<<balai[i]<<"  ";
+                cout<<v[i]<<"  ";
             }
 
             cout<<endl<<"egzamino rezultatas: "<<egzaminas<<"  galutinis: "<<setprecision(3)<<galutinis;
@@ -177,16 +183,17 @@ int main()
             while(o!=1) //labai idomus ciklas. Kadangi protingai nieko nesugalvojau, pazymiai ivedami tol, kol ivesime 0, o tai reiskia, akad pazymiai baigti vesti.
             {
                 cout<<"iveskite skaiciu: ";
-                cin>>balai[i];
-                if(balai[i]>=0&&balai[i]<=10)
-                    vidurkis=balai[i]+vidurkis;
+                cin>>x;
+                if(x>=0&&x<=10)
+                    {vidurkis=x+vidurkis;
+                    v.push_back(x);}
                     else
                     {
                         i--;
                         cout<<"iveskite teisinga skaiciu"<<endl;
                     }
 
-                if(balai[i]==0) // jeigu ivedame nuli
+                if(x==0) // jeigu ivedame nuli
                 {
                     o=1;
                     i--;
@@ -199,21 +206,21 @@ int main()
             {
                 for(int j=0; j<i; j++)
                 {
-                    vidurkis=balai[j]+vidurkis;
+                    vidurkis=v[j]+vidurkis;
                 }
             }
             if(k==2)
             {
                 for(int j=0; j<i; j++)
                 {
-                    vidurkis=balai[j]+vidurkis;
+                    vidurkis=v[j]+vidurkis;
                 }
                 for(int j=0; j<i; j++)
                 {
                            if(i/2==j && i%10!=0)
-                    vidurkis=balai[j];
+                    vidurkis=v[j];
                 else
-                    vidurkis=(balai[j]+balai[j+1])/2;
+                    vidurkis=(v[j]+v[j+1])/2;
                 }
             }
             cout<<"iveskite egzamino rezultata"<<endl;
@@ -224,7 +231,7 @@ int main()
 
             for(int j=0; j<i; j++)
             {
-                cout<<balai[j]<<"  ";
+                cout<<v[j]<<"  ";
             }
             cout<<endl<<" egzamino rezultatas: "<<egzaminas<<"  galutinis: "<<setprecision(3)<<galutinis;
             return 0;
