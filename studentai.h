@@ -1,15 +1,17 @@
 #ifndef STUDENTAI_H_INCLUDED
 #define STUDENTAI_H_INCLUDED
 using std::string;
+using std::vector;
 
-struct studentas
+struct Studentas
 {
     string vard;
     string pav;
-    double paz[50];
-    int egz;
+    vector<int> v;
+    double egz;
     double vid;
     double med;
+    double gal;
 };
 
 #endif // STUDENTAI_H_INCLUDED
