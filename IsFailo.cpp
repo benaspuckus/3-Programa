@@ -4,6 +4,7 @@
 #include <Windows.h>
 #include <deque>
 #include "IsFailo.h"
+#include <list>
 #include <fstream>
 #include <algorithm>
 #include "studentai.h"
@@ -17,6 +18,7 @@ using std::ifstream;
 using std::ofstream;
 using std::setprecision;
 using std::swap;
+using std::list;
 using std::sort;
 using std::deque;
 using std::endl;

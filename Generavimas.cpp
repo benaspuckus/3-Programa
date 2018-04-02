@@ -3,6 +3,7 @@
 #include <iomanip>
 #include <stdio.h>
 #include <stdlib.h>
+#include <list>
 #include <fstream>
 #include <time.h>
 using std::cout;

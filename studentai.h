@@ -3,12 +3,13 @@
 using std::string;
 using std::vector;
 using std::deque;
+using std::list;
 
 struct Studentas
 {
     string vard;
     string pav;
-    deque<int> v;
+    list<int> v;
     double egz;
     double vid;
     double med;
