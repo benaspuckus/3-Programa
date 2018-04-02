@@ -2,6 +2,7 @@
 #include "PazymiuIvedimas.cpp"
 #include "Mediana.cpp"
 #include "Galutinis.cpp"
+#include "Generavimas.cpp"
 #include <iomanip>
 #include<cmath>
 #include <Windows.h>
@@ -27,6 +28,13 @@ using std::mt19937;
 using std::uniform_real_distribution;
 int main()
 {
+    int kiekis=10;
+    for(int i=0; i<5; i++)
+    {
+        generavimas(kiekis);
+        kiekis=kiekis*10;
+    }
+    kiekis=10;
     vector<Studentas> a;
     vector<Studentas> b;
     vector<Studentas> c;
@@ -43,7 +51,11 @@ int main()
     cin>>l;
     if(l==2) //jeigu skaitome is failo
     {
-        IsFailo(a,b,c);
+        for(int i=0; i<5; i++)
+        {
+            IsFailo(a,b,c,kiekis);
+            kiekis=kiekis*10;
+        }
     }
     if(l==1)
     {
@@ -133,7 +145,7 @@ int main()
             o=0;
             if(k==2)
             {
-               Mediana(i,o,a);
+                Mediana(i,o,a);
             }
             cout<<"iveskite egzamino rezultata"<<endl;
             o=1;
@@ -142,7 +154,8 @@ int main()
                 cin>>a[0].egz;
                 int i=0;
                 Galutinis(o,i,a,k,n);
-;            }
+                ;
+            }
 
 
             cout<<a[0].vard<<"  "<<a[0].pav<<"  "<<endl<<"pazymiai:"<<endl;

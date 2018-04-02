@@ -2,12 +2,13 @@
 #define STUDENTAI_H_INCLUDED
 using std::string;
 using std::vector;
+using std::deque;
 
 struct Studentas
 {
     string vard;
     string pav;
-    vector<int> v;
+    deque<int> v;
     double egz;
     double vid;
     double med;

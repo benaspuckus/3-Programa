@@ -2,6 +2,7 @@
 #include "Galutinis.h"
 #include <iomanip>
 #include<cmath>
+#include <deque>
 #include <Windows.h>
 #include <fstream>
 #include <algorithm>
@@ -16,6 +17,7 @@ using std::ifstream;
 using std::ofstream;
 using std::setprecision;
 using std::swap;
+using std::deque;
 using std::sort;
 using std::endl;
 using std::vector;
@@ -23,7 +25,7 @@ using std::setw;
 using std::random_device;
 using std::mt19937;
 using std::uniform_real_distribution;
-void Galutinis(int &i, int o,vector<Studentas> &a, int k, int n)
+void Galutinis(int &i, int o,deque<Studentas> &a, int k, int n)
 {
     if(a[o].egz<=10)
                 {

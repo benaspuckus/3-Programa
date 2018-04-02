@@ -2,6 +2,7 @@
 #include <iomanip>
 #include<cmath>
 #include <Windows.h>
+#include <deque>
 #include "IsFailo.h"
 #include <fstream>
 #include <algorithm>
@@ -17,6 +18,7 @@ using std::ofstream;
 using std::setprecision;
 using std::swap;
 using std::sort;
+using std::deque;
 using std::endl;
 using std::vector;
 using std::setw;
@@ -27,7 +29,7 @@ bool Rikiavimas(const Studentas &a, const Studentas &b)
 {
     return a.vard < b.vard;
 }
-void IsFailo(vector <Studentas> &a,vector <Studentas> &b,vector <Studentas> &c,int n)
+void IsFailo(deque <Studentas> &a,deque <Studentas> &b,deque <Studentas> &c,int n)
 {
         int kof1=0;
         int kof2=0;
