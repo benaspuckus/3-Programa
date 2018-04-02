@@ -166,7 +166,6 @@ int main()
                 cin>>a[0].egz;
                 int i=0;
                 Galutinis(o,i,a,k,n);
-                ;
             }
 
 
