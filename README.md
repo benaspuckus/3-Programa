@@ -1,3 +1,9 @@
+# Vertinimas
+
+- Sutvarkyti README pagal reikalavimus
+- Sukurti cmake (CMakeList.txt) arba make (MAKEFILE)
+
+
 # Kaip naudotis programa
 
 Programa naudotis paprasta:
