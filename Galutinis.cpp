@@ -27,7 +27,7 @@ using std::setw;
 using std::random_device;
 using std::mt19937;
 using std::uniform_real_distribution;
-void Galutinis(int &i, int o,list<Studentas> &a, int k, int n)
+void Galutinis(int &i, int o,vector<Studentas> &a, int k, int n)
 {
     if(a[o].egz<=10)
                 {

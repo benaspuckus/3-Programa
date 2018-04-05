@@ -27,7 +27,7 @@ using std::setw;
 using std::random_device;
 using std::mt19937;
 using std::uniform_real_distribution;
-void Mediana(int n,int o,list<Studentas> &a)
+void Mediana(int n,int o,vector<Studentas> &a)
 {
   for(int i=0; i<n; i++)
                 {

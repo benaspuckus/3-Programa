@@ -2,6 +2,8 @@
 #include "PazymiuIvedimas.cpp"
 #include "Mediana.cpp"
 #include "Galutinis.cpp"
+#include "IsFailoD.cpp"
+#include "IsFailoL.cpp"
 #include "Generavimas.cpp"
 #include <iomanip>
 #include<cmath>
@@ -38,15 +40,14 @@ int main()
         kiekis=kiekis*10;
     }
     auto finish = std::chrono::high_resolution_clock::now();
-	std::chrono::duration<double> elapsed = finish - start;
-	cout<<"failu generavimo laikas - "<<elapsed.count()<<"s"<<endl;
+    std::chrono::duration<double> elapsed = finish - start;
+    cout<<"failu generavimo laikas - "<<elapsed.count()<<"s"<<endl;
     kiekis=10;
     vector<Studentas> a;
-    vector<Studentas> b;
-    vector<Studentas> c;
     int n;
     int k;
     int u;
+    int p;
     int x;
     int o=0;
     int t;
@@ -56,18 +57,92 @@ int main()
     cout<<"ar ivesite duomenis, ar skaitysime is failo? 1 - ivesiu 2 - is failo"<<endl;
     cin>>l;
     if(l==2) //jeigu skaitome is failo
-    {       auto start = std::chrono::high_resolution_clock::now();
-
+    {
+        p=1;
+        cout<<"Naudojant 2 konteinerius"<<endl;
+        cout<<"Vektorius:"<<endl;
+        cout<<"-------------------------------------------------------------"<<endl;
 
         for(int i=0; i<5; i++)
         {
-            IsFailo(a,b,c,kiekis);
+            auto start = std::chrono::high_resolution_clock::now();
+            IsFailo(kiekis,p);
+            auto finish = std::chrono::high_resolution_clock::now();
+            std::chrono::duration<double> elapsed = finish - start;
+            cout<<std::left<<"| "<<setw(9)<<kiekis<<" failu ivedimo ir sugrupavimo laikas - "<<setw(8)<<elapsed.count()<<"s"<<" |"<<endl;
             kiekis=kiekis*10;
         }
+        cout<<"-------------------------------------------------------------"<<endl;;
+        kiekis=10;
+        cout<<"Deque:"<<endl;
+        cout<<"-------------------------------------------------------------"<<endl;
+        for(int i=0; i<5; i++)
+        {
+            auto start = std::chrono::high_resolution_clock::now();
+            IsFailoD(kiekis,p);
+            auto finish = std::chrono::high_resolution_clock::now();
+            std::chrono::duration<double> elapsed = finish - start;
+            cout<<std::left<<"| "<<setw(9)<<kiekis<<" failu ivedimo ir sugrupavimo laikas - "<<setw(8)<<elapsed.count()<<"s"<<" |"<<endl;
+            kiekis=kiekis*10;
+        }
+        cout<<"-------------------------------------------------------------"<<endl;
+                kiekis=10;
+        cout<<"List:"<<endl;
+        cout<<"-------------------------------------------------------------"<<endl;
+        for(int i=0; i<5; i++)
+        {
+            auto start = std::chrono::high_resolution_clock::now();
+            IsFailoL(kiekis,p);
+            auto finish = std::chrono::high_resolution_clock::now();
+            std::chrono::duration<double> elapsed = finish - start;
+            cout<<std::left<<"| "<<setw(9)<<kiekis<<" failu ivedimo ir sugrupavimo laikas - "<<setw(8)<<elapsed.count()<<"s"<<" |"<<endl;
+            kiekis=kiekis*10;
+        }
+        cout<<"-------------------------------------------------------------"<<endl;
+        cout<<"Naudojant 3 konteinerius"<<endl;
+        p=2;
+        kiekis=10;
+        cout<<"Vektorius:"<<endl;
+        cout<<"-------------------------------------------------------------"<<endl;
 
-    auto finish = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double> elapsed = finish - start;
-    cout<<"failu ivedimo ir sugrupavimo laikas - "<<elapsed.count()<<"s"<<endl;
+        for(int i=0; i<5; i++)
+        {
+            auto start = std::chrono::high_resolution_clock::now();
+            IsFailo(kiekis,p);
+            auto finish = std::chrono::high_resolution_clock::now();
+            std::chrono::duration<double> elapsed = finish - start;
+            cout<<std::left<<"| "<<setw(9)<<kiekis<<" failu ivedimo ir sugrupavimo laikas - "<<setw(8)<<elapsed.count()<<"s"<<" |"<<endl;
+            kiekis=kiekis*10;
+        }
+        cout<<"-------------------------------------------------------------"<<endl;;
+        kiekis=10;
+        cout<<"Deque:"<<endl;
+        cout<<"-------------------------------------------------------------"<<endl;
+        for(int i=0; i<5; i++)
+        {
+            auto start = std::chrono::high_resolution_clock::now();
+            IsFailoD(kiekis,p);
+            auto finish = std::chrono::high_resolution_clock::now();
+            std::chrono::duration<double> elapsed = finish - start;
+            cout<<std::left<<"| "<<setw(9)<<kiekis<<" failu ivedimo ir sugrupavimo laikas - "<<setw(8)<<elapsed.count()<<"s"<<" |"<<endl;
+            kiekis=kiekis*10;
+        }
+        cout<<"-------------------------------------------------------------"<<endl;
+                kiekis=10;
+        cout<<"List:"<<endl;
+        cout<<"-------------------------------------------------------------"<<endl;
+        for(int i=0; i<5; i++)
+        {
+            auto start = std::chrono::high_resolution_clock::now();
+            IsFailoL(kiekis,p);
+            auto finish = std::chrono::high_resolution_clock::now();
+            std::chrono::duration<double> elapsed = finish - start;
+            cout<<std::left<<"| "<<setw(9)<<kiekis<<" failu ivedimo ir sugrupavimo laikas - "<<setw(8)<<elapsed.count()<<"s"<<" |"<<endl;
+            kiekis=kiekis*10;
+        }
+        cout<<"-------------------------------------------------------------"<<endl;
+
+
     }
     if(l==1)
     {

@@ -28,7 +28,7 @@ using std::setw;
 using std::random_device;
 using std::mt19937;
 using std::uniform_real_distribution;
-void IvestiPaciamZinomus(int n,list<Studentas> &a)
+void IvestiPaciamZinomus(int n,vector<Studentas> &a)
 {
     int k;
     int x;

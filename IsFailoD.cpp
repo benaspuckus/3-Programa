@@ -1,8 +1,9 @@
 #include <iostream>
 #include <iomanip>
 #include<cmath>
+#include <deque>
 #include <Windows.h>
-#include "IsFailo.h"
+#include "IsFailoD.h"
 #include <fstream>
 #include <algorithm>
 #include "studentai.h"
@@ -11,6 +12,7 @@
 #include <random>
 using std::cin;
 using std::cout;
+using std::deque;
 using std::string;
 using std::ifstream;
 using std::ofstream;
@@ -23,19 +25,19 @@ using std::setw;
 using std::random_device;
 using std::mt19937;
 using std::uniform_real_distribution;
-bool Rikiavimas(const Studentas &a, const Studentas &b)
+bool RikiavimasD(const Studentas &a, const Studentas &b)
 {
     return a.vard < b.vard;
 }
-bool Riba(const Studentas &a)
+bool RibaD(const Studentas &a)
 {
     return a.vid < 6.0;
 }
-void IsFailo(int n, int p)
+void IsFailoD(int n, int p)
 {
-    vector<Studentas> a;
-    vector<Studentas> b;
-    vector<Studentas> c;
+    deque<Studentas> a;
+    deque<Studentas> b;
+    deque<Studentas> c;
     int kof1=0;
     int kof2=0;
     int i=0;
