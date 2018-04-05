@@ -13,8 +13,6 @@ void generavimas(int n)
 {
 int random;
 
-    for(int i=0; i<5; i++)
-    {
 
         ofstream fr;
         if(n==10)
@@ -40,5 +38,5 @@ int random;
         }
         fr.close();
         fr.clear();
-    }
+    
 }
