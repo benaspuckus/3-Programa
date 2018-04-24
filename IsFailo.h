@@ -7,7 +7,7 @@
 #include <fstream>
 #include <algorithm>
 #include <deque>
-#include "studentai.h"
+#include "Studentas.h"
 #include <sstream>
 #include "IsFailo.h"
 #include <vector>
@@ -27,5 +27,5 @@ using std::setw;
 using std::random_device;
 using std::mt19937;
 using std::uniform_real_distribution;
-void IsFailo(int n,int p);
+void IsFailo(int n, int p);
 #endif // ISFAILO_H_INCLUDED

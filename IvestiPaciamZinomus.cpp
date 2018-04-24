@@ -1,5 +1,5 @@
 #include "IvestiPaciamZinomus.h"
-#include "studentai.h"
+#include "Studentas.h"
 #include <iomanip>
 #include<cmath>
 #include "Galutinis.cpp"

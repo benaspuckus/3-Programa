@@ -147,7 +147,6 @@ int main()
     if(l==1)
     {
         a.push_back(Studentas());
-
         cout<<"iveskite varda"<<endl;
         cin>>a[0].vard;
         cout<<"iveskite pavarde"<<endl;
@@ -190,7 +189,7 @@ int main()
             cin>>k;
             if(k==2)
             {
-                Mediana(n,o,a);
+               Mediana(n,o,a);
             }
             o=1;
             cout<<"iveskite egzamino rezultata"<<endl;
