@@ -38,5 +38,5 @@ int random;
         }
         fr.close();
         fr.clear();
-    
+
 }

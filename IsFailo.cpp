@@ -5,7 +5,7 @@
 #include "IsFailo.h"
 #include <fstream>
 #include <algorithm>
-#include "studentai.h"
+#include "Studentas.h"
 #include <sstream>
 #include <vector>
 #include <random>
@@ -31,7 +31,7 @@ bool Riba(const Studentas &a)
 {
     return a.vid < 6.0;
 }
-void IsFailo(int n, int p)
+ void IsFailo(int n, int p)
 {
     vector<Studentas> a;
     vector<Studentas> b;

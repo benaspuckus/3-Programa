@@ -1,4 +1,4 @@
-#include "studentai.h"
+#include "Studentas.h"
 #include "PazymiuIvedimas.h"
 #include <iomanip>
 #include<cmath>

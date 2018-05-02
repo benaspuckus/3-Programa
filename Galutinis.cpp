@@ -1,4 +1,4 @@
-#include "studentai.h"
+#include "Studentas.h"
 #include "Galutinis.h"
 #include <iomanip>
 #include<cmath>

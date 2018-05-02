@@ -6,7 +6,7 @@
 #include "IsFailoL.h"
 #include <fstream>
 #include <algorithm>
-#include "studentai.h"
+#include "Studentas.h"
 #include <sstream>
 #include <vector>
 #include <random>

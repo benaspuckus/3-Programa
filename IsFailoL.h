@@ -8,7 +8,7 @@
 #include <fstream>
 #include <algorithm>
 #include <deque>
-#include "studentai.h"
+#include "Studentas.h"
 #include <sstream>
 #include <vector>
 #include <random>
