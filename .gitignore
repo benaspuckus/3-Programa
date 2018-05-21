@@ -32,4 +32,4 @@
 *.exe
 *.out
 *.app
-*.txt
+*.txt .idea

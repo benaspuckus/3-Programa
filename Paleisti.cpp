@@ -2,7 +2,9 @@
 #include "PazymiuIvedimas.cpp"
 #include "Mediana.cpp"
 #include "Galutinis.cpp"
+#include "Studentas.h"
 #include "IsFailoD.cpp"
+#include "Studentas.cpp"
 #include "IsFailoL.cpp"
 #include "Generavimas.cpp"
 #include <iomanip>
@@ -144,7 +146,7 @@ int main()
 
 
     }
-    if(l==1)
+  /* if(l==1)
     {
         a.push_back(Studentas());
         cout<<"iveskite varda"<<endl;
@@ -253,7 +255,7 @@ int main()
             return 0;
 
         }
-    }
+    }*/
 }
 
 

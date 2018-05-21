@@ -32,8 +32,8 @@ void Mediana(int n,int o,vector<Studentas> &a)
   for(int i=0; i<n; i++)
                 {
                     if(i/2==i && i%10!=0)
-                        a[o].vid=a[o].v[i];
+                        a[o].setVidurkis(a[o].v[i]);
                     else
-                        a[o].vid=(a[o].v[i]+a[o].v[i+1])/2;
+                        a[o].setVidurkis((a[o].v[i]+a[o].v[i+1])/2);
                 }
 }

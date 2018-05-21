@@ -72,23 +72,23 @@ void IsFailoL(int n, int p)
         //a.push_back(Studentas());
 
         std::istringstream iss(line);
-        iss>>temp.vard;
-        iss>>temp.pav;
+        temp.setVardas(iss);
+        temp.setPavarde(iss);
         while (iss >> g) //ivedineja, kol yra pazymiu
         {
             temp.v.push_back(g);
-            temp.vid=temp.v[i]+temp.vid;
+            temp.setVidurkis(temp.v[i]+temp.vid);
             i++;
         }
-        temp.egz=temp.v[i];
+        temp.setEgzaminas(temp.v[i]);
         temp.v.pop_back();
-        temp.vid=temp.vid/(i);
+        temp.setVidurkis(temp.vid/(i));
         for(int j=0; j<i; j++) //iesko medianos
         {
             if(i/2==j && i%10!=0)
-                temp.med=temp.v[j-1];
+                temp.setMediana(temp.v[j-1]);
             if(i/2==j && i%10==0)
-                temp.med=(temp.v[j]+temp.v[j+1])/2;
+                temp.setMediana((temp.v[j]+temp.v[j+1])/2);
         }
         a.push_back(temp);
         if(temp.vid<6) //iraso i atskirus vektorius zmones, kurie prileisi ir kurie neprileisti prie egzamino
@@ -129,27 +129,27 @@ void IsFailoL(int n, int p)
     for(auto i:b)
     {
 
-        i.vard.resize(12); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
-        i.pav.resize(13);
-        fr<<i.vard<<"  "<<i.pav<<"  "<<setprecision(2)<<setw(8)<<i.vid<<"         "<<i.med<<endl;
+       /* i.vard.resize(12); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
+        i.pav.resize(13);*/
+        fr<<i.getVardas()<<"  "<<i.getPavarde()<"  "<<setprecision(2)<<setw(8)<<i.getVidurkis()<<"         "<<i.getMediana<<endl;
     }
     fr<<"mandruoliai:"<<endl;
     if(p==1)
     {for(auto i:a)
     {
 
-        i.vard.resize(12); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
-        i.pav.resize(13);
-        fr<<i.vard<<"  "<<i.pav<<"  "<<setprecision(2)<<setw(8)<<i.vid<<"         "<<i.med<<endl;
+      /*  i.vard.resize(12); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
+        i.pav.resize(13);*/
+        fr<<i.getVardas()<<"  "<<i.getPavarde()<<"  "<<setprecision(2)<<setw(8)<<i.getVidurkis()<<"         "<<i.getMediana()<<endl;
     }}
     if(p==2)
     {
        for(auto i:c)
     {
 
-        i.vard.resize(12); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
-        i.pav.resize(13);
-        fr<<i.vard<<"  "<<i.pav<<"  "<<setprecision(2)<<setw(8)<<i.vid<<"         "<<i.med<<endl;
+        /*i.vard.resize(12); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
+        i.pav.resize(13);*/
+        fr<<i.getVardas()<<"  "<<i.getPavarde()<<"  "<<setprecision(2)<<setw(8)<<i.getVidurkis()<<"         "<<i.getMediana()<<endl;
     }
     }
     fr.close();

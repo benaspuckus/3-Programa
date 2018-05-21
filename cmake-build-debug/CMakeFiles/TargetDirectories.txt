@@ -1,0 +1,3 @@
+C:/Users/MD/Desktop/Beno/GitVarom/3 Programa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/MD/Desktop/Beno/GitVarom/3 Programa/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/MD/Desktop/Beno/GitVarom/3 Programa/cmake-build-debug/CMakeFiles/edit_cache.dir

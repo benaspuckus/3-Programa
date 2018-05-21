@@ -72,27 +72,27 @@ void IsFailoD(int n, int p)
         a.push_back(Studentas());
 
         std::istringstream iss(line);
-        iss>>a[o].vard;
-        iss>>a[o].pav;
+        a[o].setVidurkis(iss);
+        a[o].setPavarde(iss);
         while (iss >> g) //ivedineja, kol yra pazymiu
         {
             a[o].v.push_back(g);
-            a[o].vid=a[o].v[i]+a[o].vid;
+            a[o].setVidurkis(a[o].v[i]+a[o].getVidurkis());
             i++;
         }
-        a[o].egz=a[o].v[i];
+        a[o].setEgzaminas(a[o].v[i]);
         a[o].v.pop_back();
-        a[o].vid=a[o].vid/(i);
+        a[o].setVidurkis(a[o].getVidurkis()/(i));
         sort(a[o].v.begin(),a[o].v.end());
         for(int j=0; j<i; j++) //iesko medianos
         {
             if(i/2==j && i%10!=0)
-                a[o].med=a[o].v[j-1];
+                a[o].setMediana(a[o].v[j-1]);
             if(i/2==j && i%10==0)
-                a[o].med=(a[o].v[j]+a[o].v[j+1])/2;
+                a[o].setMediana((a[o].v[j]+a[o].v[j+1])/2)
         }
 
-        if(a[o].vid<6) //iraso i atskirus vektorius zmones, kurie prileisi ir kurie neprileisti prie egzamino
+        if(a[o].getVidrukis()<6) //iraso i atskirus vektorius zmones, kurie prileisi ir kurie neprileisti prie egzamino
         {
             b.push_back(Studentas());
             b[kof1]=a[o];
@@ -100,7 +100,7 @@ void IsFailoD(int n, int p)
         }
         if(p==2)
         {
-          if(a[o].vid>=6) //iraso i atskirus vektorius zmones, kurie prileisi ir kurie neprileisti prie egzamino
+          if(a[o].getVidurkis()>=6) //iraso i atskirus vektorius zmones, kurie prileisi ir kurie neprileisti prie egzamino
         {
             c.push_back(Studentas());
             c[kof2]=a[o];
@@ -125,18 +125,18 @@ void IsFailoD(int n, int p)
     for(int i=0; i<kof1; i++)
     {
 
-        b[i].vard.resize(12); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
-        b[i].pav.resize(13);
-        fr<<b[i].vard<<"  "<<b[i].pav<<"  "<<setprecision(2)<<setw(8)<<b[i].vid<<"         "<<b[i].med<<endl;
+/*        b[i].vard.resize(12); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
+        b[i].pav.resize(13);*/
+        fr<<b[i].getVardas()<<"  "<<b[i].getPavarde()<<"  "<<setprecision(2)<<setw(8)<<b[i].getVidurkis()<<"         "<<b[i].getMediana()<<endl;
     }
     fr<<"mandruoliai:"<<endl;
     if(p==1)
     {for(int i=0; i< a.size(); i++)
     {
 
-        a[i].vard.resize(12); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
-        a[i].pav.resize(13);
-        fr<<a[i].vard<<"  "<<a[i].pav<<"  "<<setprecision(2)<<setw(8)<<a[i].vid<<"         "<<a[i].med<<endl;
+       /* a[i].vard.resize(12); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
+        a[i].pav.resize(13);*/
+        fr<<a[i].getVardas()<<"  "<<a[i].getPavarde()<<"  "<<setprecision(2)<<setw(8)<<a[i].getVidurkis()<<"         "<<a[i].getMediana()<<endl;
     }}
     if(p==2)
     {
@@ -145,7 +145,7 @@ void IsFailoD(int n, int p)
 
         c[i].vard.resize(12); //resize'inu string'us, kad galeciau graziai isdelioti rezultatu faile
         c[i].pav.resize(13);
-        fr<<c[i].vard<<"  "<<c[i].pav<<"  "<<setprecision(2)<<setw(8)<<c[i].vid<<"         "<<c[i].med<<endl;
+        fr<<c[i].getVardas()<<"  "<<c[i].getPavarde()<<"  "<<setprecision(2)<<setw(8)<<c[i].getVidurkis()<<"         "<<c[i].getMediana()<<endl;
     }
     }
     fr.close();

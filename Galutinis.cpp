@@ -29,12 +29,12 @@ using std::mt19937;
 using std::uniform_real_distribution;
 void Galutinis(int &i, int o,vector<Studentas> &a, int k, int n)
 {
-    if(a[o].egz<=10)
+    if(a[o].getEgzaminas()<=10)
                 {
                     if(k==2)
-                        a[o].gal=0.4*(a[o].vid)+0.6*a[o].egz;
+                        a[o].setGalutinis(0.4*(a[o].getVidurkis())+0.6*a[o].getEgzaminas())
                     if(k==1)
-                        a[o].gal=0.4*(a[o].vid/n)+0.6*a[o].egz;
+                        a[o].gal=0.4*(a[o].getVidurkis()/n)+0.6*a[o].getEgzaminas();
                     i=0;
                 }
                 else
