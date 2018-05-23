@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Generavimas.cpp
+Generavimas.h
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Generavimas.h
+iostream
+-
+time.h
+-
+iomanip
+-
+stdio.h
+-
+stdlib.h
+-
+fstream
+-
+
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Generavimas.h
+fstream
+-
+iostream
+-
+
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Nuskaitymas.cpp
+Nuskaitymas.h
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Nuskaitymas.h
+Studentas.h
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Studentas.h
+iostream
+-
+fstream
+-
+sstream
+-
+algorithm
+-
+iomanip
+-
+
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Nuskaitymas.h
+
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Studentas.cpp
+algorithm
+-
+Studentas.h
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Studentas.h
+
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Studentas.h
+vector
+-
+string
+-
+
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/main.cpp
+iostream
+-
+chrono
+-
+iomanip
+-
+Generavimas.h
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Generavimas.h
+Nuskaitymas.h
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Nuskaitymas.h
+Studentas.h
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/Studentas.h
+

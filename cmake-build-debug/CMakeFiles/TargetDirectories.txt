@@ -1,0 +1,3 @@
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/cmake-build-debug/CMakeFiles/Tikrai_3_Programa.dir
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/MD/Desktop/Beno/GitVarom/Tikrai 3 Programa/cmake-build-debug/CMakeFiles/rebuild_cache.dir

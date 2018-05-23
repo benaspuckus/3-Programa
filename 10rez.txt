@@ -1,0 +1,13 @@
+Vardas   Pavarde            vidurkis mediana
+moliai:
+vardas1pavarde1     5.2   5
+vardas3pavarde3   5.568   3
+vardas4pavarde4  4.7136   3
+vardas7pavarde7 5.17371   4
+malaciai:
+vardas2pavarde2    6.84   6
+vardas5pavarde5 7.34272   7
+vardas6pavarde6 7.86854   6
+vardas8pavarde8 7.63474   8
+vardas9pavarde9 7.92695   7
+vardas10pavarde10 6.18539   3
