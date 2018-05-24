@@ -12,9 +12,16 @@
 
 using std::ifstream;
 using std::sort;
+using std::cout;
+using std::setprecision;
 using std::endl;
 using std::setw;
 using std::ofstream;
+
+bool Skirstymas(const Studentas& a)
+{
+    return a.getVidurkis() > 6;
+}
 
 void Nuskaitymas(int kiekis)
 {
@@ -81,29 +88,22 @@ void Nuskaitymas(int kiekis)
         }
         laikinas.setVidurkis(laikinas.getVidurkis()/Kiekis);
             visi.push_back(laikinas);
-            if(laikinas.getVidurkis()<6)
-            {
-                moliai.push_back(laikinas);
-            }
-            if(laikinas.getVidurkis()>=6)
-            {
-                kieti.push_back(laikinas);
-            }
-
-
-
-
     }
-    sort(visi.begin(),visi.end());
-    fr<<"Vardas   Pavarde            vidurkis mediana"<<endl;
-    fr<<"moliai:"<<endl;
-    for(auto i : moliai)
-    {
-        fr<<i.getVardas()<<setw(8)<<i.getPavarde()<<setw(8)<<i.getVidurkis()<<setw(4)<<i.getMediana()<<endl;
-    }
-    fr<<"malaciai:"<<endl;
-    for(auto i : kieti)
-    {
-        fr<<i.getVardas()<<setw(8)<<i.getPavarde()<<setw(8)<<i.getVidurkis()<<setw(4)<<i.getMediana()<<endl;
-    }
+    fr<<"Visi studentai:"<<endl;
+    fr<<"Vardas    Pavarde      vidurkis     mediana"<<endl;
+    for(auto i=visi.begin(); i != visi.end(); ++i)
+        fr<<i->getVardas()<<setw(11)<<i->getPavarde()<<setw(11)<<setprecision(3)<<i->getVidurkis()<<setw(11)<<i->getMediana()<<endl;
+    vector<Studentas>::iterator riba;
+    riba=std::stable_partition(visi.begin(),visi.end(),Skirstymas);
+    //sort(visi.begin(),visi.end());
+    fr<<endl<<"moliai:"<<endl;
+    fr<<"Vardas    Pavarde      vidurkis     mediana"<<endl;
+
+    for(auto i=riba; i != visi.end(); ++i)
+        fr<<i->getVardas()<<setw(11)<<i->getPavarde()<<setw(11)<<setprecision(3)<<i->getVidurkis()<<setw(11)<<i->getMediana()<<endl;
+    fr<<endl<<"kieti:"<<endl;
+    fr<<"Vardas    Pavarde      vidurkis     mediana"<<endl;
+    for(auto i=visi.begin(); i != riba; ++i)
+        fr<<i->getVardas()<<setw(11)<<i->getPavarde()<<setw(11)<<setprecision(3)<<i->getVidurkis()<<setw(11)<<i->getMediana()<<endl;
+
 }

@@ -1,1003 +1,2008 @@
-Vardas   Pavarde            vidurkis mediana
+Visi studentai:
+Vardas    Pavarde      vidurkis     mediana
+vardas1   pavarde1        6.4          6
+vardas2   pavarde2       8.28          8
+vardas3   pavarde3       6.46          3
+vardas4   pavarde4       7.49          7
+vardas5   pavarde5        8.3          7
+vardas6   pavarde6       9.06          9
+vardas7   pavarde7       8.81          7
+vardas8   pavarde8       7.96          6
+vardas9   pavarde9       5.79          4
+vardas10  pavarde10       7.36          7
+vardas11  pavarde11       6.67          6
+vardas12  pavarde12       5.73          5
+vardas13  pavarde13       4.75          3
+vardas14  pavarde14       4.75          2
+vardas15  pavarde15       6.35          4
+vardas16  pavarde16       6.27          5
+vardas17  pavarde17       7.65          8
+vardas18  pavarde18       6.13          5
+vardas19  pavarde19       7.03          4
+vardas20  pavarde20       4.81          4
+vardas21  pavarde21       8.96          9
+vardas22  pavarde22       5.79          4
+vardas23  pavarde23       5.76          3
+vardas24  pavarde24       7.55          6
+vardas25  pavarde25       6.51          5
+vardas26  pavarde26        7.1          6
+vardas27  pavarde27       5.02          5
+vardas28  pavarde28        6.6          6
+vardas29  pavarde29       7.72          7
+vardas30  pavarde30       6.14          4
+vardas31  pavarde31       5.03          4
+vardas32  pavarde32       8.61          7
+vardas33  pavarde33       7.52          7
+vardas34  pavarde34        7.9          6
+vardas35  pavarde35       7.78          7
+vardas36  pavarde36       5.36          3
+vardas37  pavarde37       5.07          4
+vardas38  pavarde38       7.01          7
+vardas39  pavarde39          5          3
+vardas40  pavarde40        5.4          4
+vardas41  pavarde41       6.08          3
+vardas42  pavarde42       6.42          5
+vardas43  pavarde43       9.08          9
+vardas44  pavarde44       7.02          4
+vardas45  pavarde45        8.2          8
+vardas46  pavarde46       6.44          3
+vardas47  pavarde47       5.09          3
+vardas48  pavarde48       8.22          8
+vardas49  pavarde49       8.84          9
+vardas50  pavarde50       6.97          6
+vardas51  pavarde51       8.79          7
+vardas52  pavarde52       6.56          6
+vardas53  pavarde53       6.31          5
+vardas54  pavarde54       7.26          5
+vardas55  pavarde55       7.45          7
+vardas56  pavarde56       7.29          5
+vardas57  pavarde57       7.46          5
+vardas58  pavarde58       6.29          4
+vardas59  pavarde59       8.06          7
+vardas60  pavarde60       7.21          4
+vardas61  pavarde61       6.64          6
+vardas62  pavarde62       6.73          5
+vardas63  pavarde63       7.95          9
+vardas64  pavarde64       6.79          5
+vardas65  pavarde65       5.56          5
+vardas66  pavarde66       4.51          3
+vardas67  pavarde67        7.9          6
+vardas68  pavarde68       6.18          3
+vardas69  pavarde69       8.24          8
+vardas70  pavarde70       8.85          7
+vardas71  pavarde71       7.17          7
+vardas72  pavarde72       5.83          4
+vardas73  pavarde73       6.97          4
+vardas74  pavarde74       5.19          3
+vardas75  pavarde75       8.04          8
+vardas76  pavarde76       7.61          7
+vardas77  pavarde77       7.92          8
+vardas78  pavarde78       7.78          6
+vardas79  pavarde79       6.56          3
+vardas80  pavarde80       6.11          4
+vardas81  pavarde81       4.62          3
+vardas82  pavarde82       3.92          3
+vardas83  pavarde83       8.18          8
+vardas84  pavarde84       8.44          8
+vardas85  pavarde85       5.49          4
+vardas86  pavarde86        6.9          5
+vardas87  pavarde87       6.38          5
+vardas88  pavarde88       7.28          7
+vardas89  pavarde89       7.46          6
+vardas90  pavarde90       6.69          4
+vardas91  pavarde91       6.34          3
+vardas92  pavarde92       7.67          5
+vardas93  pavarde93       7.93          6
+vardas94  pavarde94       6.59          3
+vardas95  pavarde95       4.72          4
+vardas96  pavarde96       6.34          5
+vardas97  pavarde97       7.67          6
+vardas98  pavarde98       4.93          2
+vardas99  pavarde99       3.59          2
+vardas100 pavarde100       6.32          4
+vardas101 pavarde101       6.66          7
+vardas102 pavarde102       8.93         10
+vardas103 pavarde103       7.79          8
+vardas104 pavarde104       5.96          3
+vardas105 pavarde105       5.39          4
+vardas106 pavarde106       5.28          4
+vardas107 pavarde107       6.66          7
+vardas108 pavarde108       5.53          3
+vardas109 pavarde109       7.11          6
+vardas110 pavarde110       8.82          9
+vardas111 pavarde111       7.36          6
+vardas112 pavarde112       6.67          4
+vardas113 pavarde113       6.13          4
+vardas114 pavarde114       8.23          7
+vardas115 pavarde115       7.05          5
+vardas116 pavarde116       7.01          6
+vardas117 pavarde117          7          6
+vardas118 pavarde118        6.6          6
+vardas119 pavarde119       6.52          6
+vardas120 pavarde120        7.5          6
+vardas121 pavarde121        7.3          7
+vardas122 pavarde122       7.06          6
+vardas123 pavarde123       8.01          7
+vardas124 pavarde124          8          7
+vardas125 pavarde125          7          4
+vardas126 pavarde126        6.6          6
+vardas127 pavarde127       7.32          6
+vardas128 pavarde128       8.06          5
+vardas129 pavarde129       7.21          4
+vardas130 pavarde130       6.24          2
+vardas131 pavarde131       5.85          4
+vardas132 pavarde132       6.17          4
+vardas133 pavarde133       6.23          3
+vardas134 pavarde134       4.25          3
+vardas135 pavarde135       6.45          6
+vardas136 pavarde136       7.49          7
+vardas137 pavarde137       10.3         10
+vardas138 pavarde138       8.86          7
+vardas139 pavarde139       8.37          7
+vardas140 pavarde140       5.47          4
+vardas141 pavarde141       7.09          7
+vardas142 pavarde142       5.42          3
+vardas143 pavarde143       6.88          6
+vardas144 pavarde144       5.18          3
+vardas145 pavarde145       7.04          6
+vardas146 pavarde146       5.21          3
+vardas147 pavarde147       6.24          5
+vardas148 pavarde148       5.85          4
+vardas149 pavarde149       6.17          4
+vardas150 pavarde150       6.43          4
+vardas151 pavarde151       7.89          6
+vardas152 pavarde152       6.78          6
+vardas153 pavarde153       7.16          6
+vardas154 pavarde154       5.43          3
+vardas155 pavarde155       6.49          7
+vardas156 pavarde156        6.3          5
+vardas157 pavarde157       6.06          6
+vardas158 pavarde158       8.81          7
+vardas159 pavarde159       5.36          3
+vardas160 pavarde160       9.07          9
+vardas161 pavarde161       9.01          6
+vardas162 pavarde162        6.2          2
+vardas163 pavarde163       7.04          4
+vardas164 pavarde164       8.01          5
+vardas165 pavarde165        7.6          6
+vardas166 pavarde166       6.12          4
+vardas167 pavarde167       4.22          2
+vardas168 pavarde168       7.84          7
+vardas169 pavarde169       8.17          6
+vardas170 pavarde170       7.63          6
+vardas171 pavarde171       8.13          8
+vardas172 pavarde172       6.83          5
+vardas173 pavarde173       6.17          5
+vardas174 pavarde174       4.83          4
+vardas175 pavarde175       3.97          3
+vardas176 pavarde176       7.19          6
+vardas177 pavarde177       7.64          6
+vardas178 pavarde178       7.33          5
+vardas179 pavarde179       4.47          4
+vardas180 pavarde180       6.89          6
+vardas181 pavarde181       7.38          6
+vardas182 pavarde182       5.28          4
+vardas183 pavarde183       6.66          6
+vardas184 pavarde184       7.73          5
+vardas185 pavarde185       9.95          9
+vardas186 pavarde186       5.59          2
+vardas187 pavarde187       6.52          6
+vardas188 pavarde188        5.7          2
+vardas189 pavarde189       5.94          3
+vardas190 pavarde190       5.19          4
+vardas191 pavarde191       8.64          9
+vardas192 pavarde192       6.73          4
+vardas193 pavarde193       7.15          4
+vardas194 pavarde194       6.63          3
+vardas195 pavarde195       5.73          4
+vardas196 pavarde196       6.15          6
+vardas197 pavarde197       6.03          5
+vardas198 pavarde198       8.01          8
+vardas199 pavarde199        7.2          4
+vardas200 pavarde200       6.64          4
+vardas201 pavarde201       7.73          7
+vardas202 pavarde202       6.75          6
+vardas203 pavarde203       7.15          6
+vardas204 pavarde204       6.23          4
+vardas205 pavarde205       5.85          4
+vardas206 pavarde206       3.57          2
+vardas207 pavarde207       8.51          9
+vardas208 pavarde208        6.1          3
+vardas209 pavarde209       7.02          5
+vardas210 pavarde210        8.2          8
+vardas211 pavarde211       5.24          4
+vardas212 pavarde212       7.45          5
+vardas213 pavarde213       7.69          5
+vardas214 pavarde214       4.34          3
+vardas215 pavarde215       7.87          9
+vardas216 pavarde216       6.57          4
+vardas217 pavarde217       3.11          2
+vardas218 pavarde218       7.02          7
+vardas219 pavarde219        6.2          4
+vardas220 pavarde220       4.64          3
+vardas221 pavarde221       8.53          8
+vardas222 pavarde222       5.71          3
+vardas223 pavarde223       5.54          3
+vardas224 pavarde224       5.31          2
+vardas225 pavarde225       6.46          4
+vardas226 pavarde226       4.89          4
+vardas227 pavarde227       5.58          4
+vardas228 pavarde228       6.52          4
+vardas229 pavarde229        5.5          2
+vardas230 pavarde230        5.1          2
+vardas231 pavarde231       9.42          9
+vardas232 pavarde232       7.28          6
+vardas233 pavarde233       6.86          6
+vardas234 pavarde234       7.17          7
+vardas235 pavarde235       6.23          6
+vardas236 pavarde236       6.25          6
+vardas237 pavarde237       6.05          4
+vardas238 pavarde238       5.41          4
+vardas239 pavarde239       10.5         10
+vardas240 pavarde240       10.5          9
+vardas241 pavarde241        6.1          5
+vardas242 pavarde242       7.02          5
+vardas243 pavarde243        7.6          8
+vardas244 pavarde244       7.12          5
+vardas245 pavarde245       10.4          9
+vardas246 pavarde246       7.68          6
+vardas247 pavarde247       5.34          3
+vardas248 pavarde248       7.27          7
+vardas249 pavarde249       6.45          6
+vardas250 pavarde250       5.29          3
+vardas251 pavarde251       8.26          7
+vardas252 pavarde252       6.45          6
+vardas253 pavarde253       6.29          5
+vardas254 pavarde254       4.46          2
+vardas255 pavarde255       6.49          6
+vardas256 pavarde256        7.1          6
+vardas257 pavarde257       7.22          6
+vardas258 pavarde258       7.44          6
+vardas259 pavarde259       6.49          4
+vardas260 pavarde260        6.3          5
+vardas261 pavarde261       10.3          9
+vardas262 pavarde262       7.05          5
+vardas263 pavarde263       6.61          5
+vardas264 pavarde264       7.72          5
+vardas265 pavarde265       9.34          8
+vardas266 pavarde266       7.47          5
+vardas267 pavarde267       7.89          7
+vardas268 pavarde268       9.18          9
+vardas269 pavarde269       6.84          5
+vardas270 pavarde270       8.17          6
+vardas271 pavarde271       7.03          6
+vardas272 pavarde272       5.01          5
+vardas273 pavarde273          6          5
+vardas274 pavarde274        8.2          7
+vardas275 pavarde275       8.04          7
+vardas276 pavarde276       8.01          7
+vardas277 pavarde277          9          8
+vardas278 pavarde278        7.4          5
+vardas279 pavarde279       8.08          7
+vardas280 pavarde280       6.62          5
+vardas281 pavarde281       6.12          4
+vardas282 pavarde282       5.62          5
+vardas283 pavarde283       6.52          5
+vardas284 pavarde284        6.9          5
+vardas285 pavarde285       4.98          4
+vardas286 pavarde286        5.8          4
+vardas287 pavarde287       6.96          4
+vardas288 pavarde288       5.39          3
+vardas289 pavarde289       4.88          4
+vardas290 pavarde290       4.78          2
+vardas291 pavarde291       8.76          8
+vardas292 pavarde292       6.75          4
+vardas293 pavarde293       7.95          7
+vardas294 pavarde294       8.19          7
+vardas295 pavarde295       6.84          4
+vardas296 pavarde296       6.77          5
+vardas297 pavarde297       5.15          3
+vardas298 pavarde298       6.03          5
+vardas299 pavarde299       4.41          3
+vardas300 pavarde300       4.68          4
+vardas301 pavarde301       8.74          8
+vardas302 pavarde302       5.55          4
+vardas303 pavarde303       7.31          8
+vardas304 pavarde304       7.06          7
+vardas305 pavarde305       4.01          2
+vardas306 pavarde306          7          8
+vardas307 pavarde307        7.8          7
+vardas308 pavarde308       6.96          4
+vardas309 pavarde309       5.39          3
+vardas310 pavarde310       7.28          7
+vardas311 pavarde311       5.66          3
+vardas312 pavarde312       2.93          1
+vardas313 pavarde313       6.59          7
+vardas314 pavarde314       8.12          9
+vardas315 pavarde315       9.22         10
+vardas316 pavarde316       8.04          7
+vardas317 pavarde317       6.01          5
+vardas318 pavarde318        7.6          9
+vardas319 pavarde319       5.52          2
+vardas320 pavarde320        8.5          8
+vardas321 pavarde321        7.3          6
+vardas322 pavarde322       7.66          6
+vardas323 pavarde323       5.13          4
+vardas324 pavarde324       5.83          5
+vardas325 pavarde325       5.77          4
+vardas326 pavarde326       7.55          7
+vardas327 pavarde327       4.71          3
+vardas328 pavarde328       5.14          4
+vardas329 pavarde329       5.43          4
+vardas330 pavarde330       6.49          5
+vardas331 pavarde331        6.9          8
+vardas332 pavarde332       5.98          5
+vardas333 pavarde333        5.8          4
+vardas334 pavarde334       3.96          2
+vardas335 pavarde335       5.99          6
+vardas336 pavarde336        4.6          3
+vardas337 pavarde337       8.32          7
+vardas338 pavarde338       6.86          5
+vardas339 pavarde339       3.57          2
+vardas340 pavarde340       4.51          5
+vardas341 pavarde341        5.1          4
+vardas342 pavarde342       9.42          9
+vardas343 pavarde343       10.1         10
+vardas344 pavarde344       5.82          3
+vardas345 pavarde345       8.36          8
+vardas346 pavarde346       4.87          3
+vardas347 pavarde347       7.37          6
+vardas348 pavarde348       6.47          5
+vardas349 pavarde349       7.89          6
+vardas350 pavarde350       4.78          3
+vardas351 pavarde351       5.56          4
+vardas352 pavarde352       4.51          3
+vardas353 pavarde353        3.9          3
+vardas354 pavarde354       6.78          7
+vardas355 pavarde355       6.36          5
+vardas356 pavarde356       8.87          7
+vardas357 pavarde357       8.77          8
+vardas358 pavarde358       5.55          4
+vardas359 pavarde359       6.91          6
+vardas360 pavarde360       6.98          4
+vardas361 pavarde361        6.6          5
+vardas362 pavarde362       6.32          6
+vardas363 pavarde363       5.26          4
+vardas364 pavarde364       7.45          6
+vardas365 pavarde365       6.69          5
+vardas366 pavarde366       5.54          5
+vardas367 pavarde367       6.71          4
+vardas368 pavarde368       8.34          9
+vardas369 pavarde369       6.67          5
+vardas370 pavarde370       6.33          5
+vardas371 pavarde371       8.47          8
+vardas372 pavarde372       8.49          7
+vardas373 pavarde373        8.3          8
+vardas374 pavarde374       8.06          7
+vardas375 pavarde375       8.61          6
+vardas376 pavarde376       8.72          6
+vardas377 pavarde377       7.54          5
+vardas378 pavarde378       7.11          5
+vardas379 pavarde379       9.02          8
+vardas380 pavarde380        7.2          4
+vardas381 pavarde381       5.64          4
+vardas382 pavarde382       5.33          4
+vardas383 pavarde383       7.87          6
+vardas384 pavarde384       7.17          4
+vardas385 pavarde385       5.63          2
+vardas386 pavarde386       7.33          8
+vardas387 pavarde387       7.87          7
+vardas388 pavarde388       6.57          7
+vardas389 pavarde389       4.11          2
+vardas390 pavarde390       7.82          6
+vardas391 pavarde391       7.96          7
+vardas392 pavarde392       9.59          9
+vardas393 pavarde393       6.32          3
+vardas394 pavarde394       7.66          7
+vardas395 pavarde395       5.73          3
+vardas396 pavarde396       7.15          7
+vardas397 pavarde397       9.03          7
+vardas398 pavarde398       9.01          9
+vardas399 pavarde399        8.8          8
+vardas400 pavarde400       8.76          8
+vardas401 pavarde401       9.15          7
+vardas402 pavarde402       7.43          6
+vardas403 pavarde403       9.49          8
+vardas404 pavarde404        7.1          6
+vardas405 pavarde405       9.22          9
+vardas406 pavarde406       9.04          8
+vardas407 pavarde407       6.41          3
+vardas408 pavarde408       6.88          5
+vardas409 pavarde409       7.38          9
+vardas410 pavarde410       7.68          5
+vardas411 pavarde411       4.34          1
+vardas412 pavarde412       7.27          6
+vardas413 pavarde413       7.85          6
+vardas414 pavarde414       5.77          5
+vardas415 pavarde415       4.35          3
+vardas416 pavarde416       6.27          7
+vardas417 pavarde417       7.65          7
+vardas418 pavarde418       7.33          6
+vardas419 pavarde419       7.47          6
+vardas420 pavarde420       7.29          6
+vardas421 pavarde421       9.06          7
+vardas422 pavarde422       8.21          7
+vardas423 pavarde423       6.24          3
+vardas424 pavarde424       7.05          6
+vardas425 pavarde425       7.01          5
+vardas426 pavarde426          6          6
+vardas427 pavarde427          8          7
+vardas428 pavarde428        7.6          7
+vardas429 pavarde429       4.12          2
+vardas430 pavarde430       5.42          6
+vardas431 pavarde431       9.48          8
+vardas432 pavarde432        6.3          3
+vardas433 pavarde433       7.46          7
+vardas434 pavarde434       6.69          6
+vardas435 pavarde435       6.34          3
+vardas436 pavarde436       6.47          5
+vardas437 pavarde437       5.69          4
+vardas438 pavarde438       7.74          9
+vardas439 pavarde439       8.75          8
+vardas440 pavarde440       6.95          5
+vardas441 pavarde441       9.19          8
+vardas442 pavarde442       7.24          6
+vardas443 pavarde443       5.05          3
+vardas444 pavarde444       8.21         10
+vardas445 pavarde445       8.04          5
+vardas446 pavarde446       8.61          6
+vardas447 pavarde447       6.92          6
+vardas448 pavarde448       7.38          6
+vardas449 pavarde449       7.48          5
+vardas450 pavarde450        6.7          5
+vardas451 pavarde451       6.94          6
+vardas452 pavarde452       5.39          5
+vardas453 pavarde453       6.08          6
+vardas454 pavarde454       7.22          7
+vardas455 pavarde455       7.44          6
+vardas456 pavarde456       7.49          6
+vardas457 pavarde457        6.7          5
+vardas458 pavarde458       5.74          4
+vardas459 pavarde459       4.95          3
+vardas460 pavarde460       4.79          3
+vardas461 pavarde461       6.16          5
+vardas462 pavarde462       6.43          7
+vardas463 pavarde463       3.09          2
+vardas464 pavarde464       5.62          5
+vardas465 pavarde465       6.52          6
+vardas466 pavarde466        9.7         10
+vardas467 pavarde467       5.14          3
+vardas468 pavarde468       6.63          5
+vardas469 pavarde469       6.73          5
+vardas470 pavarde470       8.55          8
+vardas471 pavarde471       7.11          6
+vardas472 pavarde472       5.22          5
+vardas473 pavarde473       6.64          7
+vardas474 pavarde474       7.73          6
+vardas475 pavarde475       7.55          8
+vardas476 pavarde476       7.91          8
+vardas477 pavarde477       4.98          3
+vardas478 pavarde478          8          8
+vardas479 pavarde479        9.4          9
+vardas480 pavarde480       8.08          6
+vardas481 pavarde481       7.62          6
+vardas482 pavarde482       7.72          6
+vardas483 pavarde483       7.14          4
+vardas484 pavarde484       5.03          4
+vardas485 pavarde485       4.61          3
+vardas486 pavarde486       3.92          2
+vardas487 pavarde487       5.38          3
+vardas488 pavarde488       4.48          2
+vardas489 pavarde489        5.1          3
+vardas490 pavarde490       6.62          6
+vardas491 pavarde491       6.12          5
+vardas492 pavarde492       6.62          6
+vardas493 pavarde493       6.92          7
+vardas494 pavarde494       4.18          3
+vardas495 pavarde495       4.64          2
+vardas496 pavarde496       7.13          6
+vardas497 pavarde497       7.63          7
+vardas498 pavarde498       8.13          7
+vardas499 pavarde499       8.63          7
+vardas500 pavarde500       5.53          3
+vardas501 pavarde501       5.51          4
+vardas502 pavarde502        7.5          6
+vardas503 pavarde503        7.9          7
+vardas504 pavarde504       8.78          7
+vardas505 pavarde505       8.56          7
+vardas506 pavarde506       5.51          3
+vardas507 pavarde507        6.1          5
+vardas508 pavarde508       4.02          2
+vardas509 pavarde509          7          7
+vardas510 pavarde510          7          6
+vardas511 pavarde511          9          7
+vardas512 pavarde512        6.2          5
+vardas513 pavarde513       6.44          6
+vardas514 pavarde514       7.89          8
+vardas515 pavarde515       9.18          9
+vardas516 pavarde516       8.04          8
+vardas517 pavarde517       6.61          4
+vardas518 pavarde518       6.32          5
+vardas519 pavarde519       6.86          6
+vardas520 pavarde520       5.77          4
+vardas521 pavarde521       6.75          5
+vardas522 pavarde522       6.15          6
+vardas523 pavarde523       6.83          4
+vardas524 pavarde524       5.97          5
+vardas525 pavarde525       9.39          8
+vardas526 pavarde526       8.08          8
+vardas527 pavarde527       9.02          7
+vardas528 pavarde528        7.8          7
+vardas529 pavarde529       6.96          5
+vardas530 pavarde530       6.19          5
+vardas531 pavarde531       6.04          4
+vardas532 pavarde532       4.81          1
+vardas533 pavarde533       6.76          8
+vardas534 pavarde534       4.95          3
+vardas535 pavarde535       6.39          5
+vardas536 pavarde536       6.28          6
+vardas537 pavarde537       8.86          9
+vardas538 pavarde538       8.37          7
+vardas539 pavarde539       7.27          6
+vardas540 pavarde540       6.65          5
+vardas541 pavarde541       6.93          5
+vardas542 pavarde542       6.19          4
+vardas543 pavarde543       9.24          8
+vardas544 pavarde544       8.45          6
+vardas545 pavarde545       8.29          7
+vardas546 pavarde546       7.06          5
+vardas547 pavarde547       7.01          5
+vardas548 pavarde548        7.4          7
+vardas549 pavarde549       8.08          6
+vardas550 pavarde550       6.42          4
+vardas551 pavarde551       5.88          4
+vardas552 pavarde552       6.58          6
+vardas553 pavarde553       8.12          8
+vardas554 pavarde554       7.42          7
+vardas555 pavarde555       8.88         10
+vardas556 pavarde556       9.58          9
+vardas557 pavarde557       6.92          4
+vardas558 pavarde558       8.78          8
+vardas559 pavarde559       7.76          7
+vardas560 pavarde560       6.95          6
+vardas561 pavarde561       8.59          7
+vardas562 pavarde562       6.52          5
+vardas563 pavarde563        7.3          5
+vardas564 pavarde564       5.66          4
+vardas565 pavarde565       6.93          6
+vardas566 pavarde566       7.19          5
+vardas567 pavarde567       5.64          3
+vardas568 pavarde568       9.13         10
+vardas569 pavarde569       7.43          7
+vardas570 pavarde570       6.29          6
+vardas571 pavarde571       6.66          4
+vardas572 pavarde572       7.33          6
+vardas573 pavarde573       9.07          9
+vardas574 pavarde574       9.81          9
+vardas575 pavarde575       9.96          9
+vardas576 pavarde576       6.79          5
+vardas577 pavarde577       6.76          7
+vardas578 pavarde578       7.15          7
+vardas579 pavarde579       7.43          6
+vardas580 pavarde580       5.89          3
+vardas581 pavarde581       3.18          1
+vardas582 pavarde582       6.64          6
+vardas583 pavarde583       9.93          9
+vardas584 pavarde584       6.99          2
+vardas585 pavarde585        6.2          5
+vardas586 pavarde586       7.44          6
+vardas587 pavarde587       6.89          5
+vardas588 pavarde588       6.78          6
+vardas589 pavarde589       6.76          5
+vardas590 pavarde590       5.55          3
+vardas591 pavarde591       9.11          8
+vardas592 pavarde592       6.02          3
+vardas593 pavarde593        8.6          7
+vardas594 pavarde594       7.12          6
+vardas595 pavarde595       7.82          7
+vardas596 pavarde596       7.76          6
+vardas597 pavarde597       8.35          7
+vardas598 pavarde598       7.27          4
+vardas599 pavarde599       7.65          7
+vardas600 pavarde600       7.93          7
+vardas601 pavarde601       7.99          8
+vardas602 pavarde602        7.6          7
+vardas603 pavarde603       8.72          7
+vardas604 pavarde604       9.14          7
+vardas605 pavarde605       9.03          8
+vardas606 pavarde606       7.01          5
+vardas607 pavarde607        7.8          7
+vardas608 pavarde608       7.56          6
+vardas609 pavarde609       7.51          8
+vardas610 pavarde610        6.3          4
+vardas611 pavarde611       6.66          5
+vardas612 pavarde612       9.13          8
+vardas613 pavarde613       7.43          4
+vardas614 pavarde614       7.29          6
+vardas615 pavarde615       8.06          6
+vardas616 pavarde616       6.21          4
+vardas617 pavarde617       5.64          4
+vardas618 pavarde618       7.73          9
+vardas619 pavarde619       7.35          8
+vardas620 pavarde620       5.47          5
+vardas621 pavarde621       8.09          7
+vardas622 pavarde622       8.62          8
+vardas623 pavarde623       5.92          3
+vardas624 pavarde624       6.58          6
+vardas625 pavarde625       8.72          7
+vardas626 pavarde626       6.14          5
+vardas627 pavarde627       6.63          6
+vardas628 pavarde628       8.33          6
+vardas629 pavarde629       6.67          5
+vardas630 pavarde630       9.93          9
+vardas631 pavarde631       7.39          7
+vardas632 pavarde632       7.08          6
+vardas633 pavarde633       8.02          8
+vardas634 pavarde634        7.4          7
+vardas635 pavarde635       7.08          4
+vardas636 pavarde636       5.82          4
+vardas637 pavarde637       6.36          7
+vardas638 pavarde638       4.67          3
+vardas639 pavarde639       4.73          4
+vardas640 pavarde640       4.55          3
+vardas641 pavarde641       6.91          5
+vardas642 pavarde642       4.78          4
+vardas643 pavarde643       5.56          4
+vardas644 pavarde644       6.31          6
+vardas645 pavarde645       7.26          7
+vardas646 pavarde646       5.05          4
+vardas647 pavarde647       5.81          5
+vardas648 pavarde648       4.76          3
+vardas649 pavarde649       4.95          4
+vardas650 pavarde650       8.19          8
+vardas651 pavarde651       6.44          4
+vardas652 pavarde652       5.69          3
+vardas653 pavarde653       7.34          6
+vardas654 pavarde654       7.47          6
+vardas655 pavarde655       5.69          2
+vardas656 pavarde656       8.14          7
+vardas657 pavarde657       8.63          8
+vardas658 pavarde658       8.53          7
+vardas659 pavarde659       6.11          4
+vardas660 pavarde660       3.82          3
+vardas661 pavarde661       3.56          1
+vardas662 pavarde662       6.51          5
+vardas663 pavarde663        4.7          3
+vardas664 pavarde664       5.54          4
+vardas665 pavarde665       4.91          3
+vardas666 pavarde666       4.98          3
+vardas667 pavarde667        6.8          5
+vardas668 pavarde668       4.96          3
+vardas669 pavarde669       6.99          7
+vardas670 pavarde670        6.2          6
+vardas671 pavarde671       5.84          3
+vardas672 pavarde672       8.77         10
+vardas673 pavarde673       7.75          6
+vardas674 pavarde674       4.95          4
+vardas675 pavarde675       6.39          6
+vardas676 pavarde676       6.08          3
+vardas677 pavarde677       8.82          9
+vardas678 pavarde678       6.56          5
+vardas679 pavarde679       7.31          5
+vardas680 pavarde680       8.66          8
+vardas681 pavarde681       5.93          5
+vardas682 pavarde682       6.39          4
+vardas683 pavarde683       7.48          7
+vardas684 pavarde684        4.1          3
+vardas685 pavarde685       6.02          5
+vardas686 pavarde686        7.8          7
+vardas687 pavarde687       6.16          4
+vardas688 pavarde688       6.03          4
+vardas689 pavarde689       7.01          6
+vardas690 pavarde690        9.4          9
+vardas691 pavarde691       7.48          7
+vardas692 pavarde692        5.5          3
+vardas693 pavarde693        5.1          2
+vardas694 pavarde694       5.62          5
+vardas695 pavarde695       6.92          8
+vardas696 pavarde696       8.58          9
+vardas697 pavarde697       7.52          6
+vardas698 pavarde698        6.1          5
+vardas699 pavarde699       5.42          3
+vardas700 pavarde700       8.28          7
+vardas701 pavarde701       8.26          8
+vardas702 pavarde702       7.85          6
+vardas703 pavarde703       7.57          6
+vardas704 pavarde704       7.71          8
+vardas705 pavarde705       6.94          6
+vardas706 pavarde706       8.19          9
+vardas707 pavarde707       6.84          5
+vardas708 pavarde708       7.57          6
+vardas709 pavarde709       5.51          3
+vardas710 pavarde710        8.1          8
+vardas711 pavarde711       7.62          5
+vardas712 pavarde712       9.52          8
+vardas713 pavarde713        6.9          4
+vardas714 pavarde714       5.98          4
+vardas715 pavarde715          6          5
+vardas716 pavarde716          6          4
+vardas717 pavarde717          9          8
+vardas718 pavarde718          5          3
+vardas719 pavarde719          7          6
+vardas720 pavarde720          7          5
+vardas721 pavarde721        7.6          6
+vardas722 pavarde722       5.92          4
+vardas723 pavarde723       5.38          4
+vardas724 pavarde724       4.88          3
+vardas725 pavarde725       7.18          7
+vardas726 pavarde726       6.64          6
+vardas727 pavarde727       5.93          5
+vardas728 pavarde728       4.59          4
+vardas729 pavarde729       6.12          4
+vardas730 pavarde730       7.02          5
+vardas731 pavarde731          5          3
+vardas732 pavarde732        4.2          2
+vardas733 pavarde733       8.84         10
+vardas734 pavarde734       9.97          9
+vardas735 pavarde735       6.19          3
+vardas736 pavarde736       7.64          8
+vardas737 pavarde737       5.73          3
+vardas738 pavarde738       5.15          3
+vardas739 pavarde739       7.63          6
+vardas740 pavarde740       5.93          5
+vardas741 pavarde741       6.39          6
+vardas742 pavarde742       8.68          8
+vardas743 pavarde743       8.54          6
+vardas744 pavarde744       5.71          2
+vardas745 pavarde745       6.54          8
+vardas746 pavarde746       5.71          5
+vardas747 pavarde747       7.14          6
+vardas748 pavarde748       5.43          4
+vardas749 pavarde749       6.69          5
+vardas750 pavarde750       8.14          8
+vardas751 pavarde751       10.2          9
+vardas752 pavarde752       7.65          6
+vardas753 pavarde753       5.53          3
+vardas754 pavarde754       5.91          3
+vardas755 pavarde755       5.78          5
+vardas756 pavarde756       7.36          6
+vardas757 pavarde757       6.87          5
+vardas758 pavarde758       4.37          3
+vardas759 pavarde759       9.47         10
+vardas760 pavarde760       8.69          6
+vardas761 pavarde761       4.34          2
+vardas762 pavarde762       5.87          4
+vardas763 pavarde763       8.17          7
+vardas764 pavarde764       8.03          7
+vardas765 pavarde765       5.21          3
+vardas766 pavarde766       6.24          5
+vardas767 pavarde767       4.85          3
+vardas768 pavarde768       5.77          6
+vardas769 pavarde769       7.15          5
+vardas770 pavarde770       6.63          5
+vardas771 pavarde771       7.13          6
+vardas772 pavarde772       6.63          5
+vardas773 pavarde773       6.93          5
+vardas774 pavarde774       7.59          7
+vardas775 pavarde775       8.32          7
+vardas776 pavarde776       7.86          7
+vardas777 pavarde777       5.37          2
+vardas778 pavarde778       5.27          2
+vardas779 pavarde779       6.85          5
+vardas780 pavarde780       8.17          8
+vardas781 pavarde781       7.83          7
+vardas782 pavarde782       6.97          6
+vardas783 pavarde783       6.79          5
+vardas784 pavarde784       4.76          3
+vardas785 pavarde785       4.75          3
+vardas786 pavarde786       7.15          7
+vardas787 pavarde787       8.83          9
+vardas788 pavarde788       6.97          5
+vardas789 pavarde789       7.39          5
+vardas790 pavarde790       6.48          4
+vardas791 pavarde791        6.7          4
+vardas792 pavarde792       6.94          7
+vardas793 pavarde793       5.59          5
+vardas794 pavarde794       7.32          6
+vardas795 pavarde795       7.06          5
+vardas796 pavarde796       5.61          4
+vardas797 pavarde797       9.32          8
+vardas798 pavarde798       8.66          7
+vardas799 pavarde799       5.93          4
+vardas800 pavarde800       8.19          7
+vardas801 pavarde801       7.44          5
+vardas802 pavarde802       7.29          5
+vardas803 pavarde803       8.46          7
+vardas804 pavarde804       7.49          7
+vardas805 pavarde805        8.1          7
+vardas806 pavarde806       6.82          6
+vardas807 pavarde807       6.56          4
+vardas808 pavarde808       8.51          8
+vardas809 pavarde809        6.5          5
+vardas810 pavarde810        7.5          7
+vardas811 pavarde811        6.1          3
+vardas812 pavarde812       6.82          5
+vardas813 pavarde813       5.76          2
+vardas814 pavarde814       5.75          5
+vardas815 pavarde815       5.15          5
+vardas816 pavarde816       8.83          9
+vardas817 pavarde817       4.97          3
+vardas818 pavarde818       3.99          3
+vardas819 pavarde819          7          6
+vardas820 pavarde820        6.2          5
+vardas821 pavarde821       5.24          4
+vardas822 pavarde822       5.85          3
+vardas823 pavarde823       6.77          6
+vardas824 pavarde824       7.15          6
+vardas825 pavarde825       6.83          5
+vardas826 pavarde826       6.77          6
+vardas827 pavarde827       6.55          6
+vardas828 pavarde828       5.51          4
+vardas829 pavarde829        5.3          4
+vardas830 pavarde830       7.06          6
+vardas831 pavarde831       6.41          3
+vardas832 pavarde832       5.08          3
+vardas833 pavarde833       5.42          3
+vardas834 pavarde834       4.28          3
+vardas835 pavarde835       6.86          7
+vardas836 pavarde836       5.57          4
+vardas837 pavarde837       5.91          5
+vardas838 pavarde838       6.58          5
+vardas839 pavarde839       6.32          5
+vardas840 pavarde840       4.86          4
+vardas841 pavarde841       5.57          4
+vardas842 pavarde842       7.11          5
+vardas843 pavarde843       4.82          2
+vardas844 pavarde844       5.16          3
+vardas845 pavarde845       5.43          4
+vardas846 pavarde846       6.09          5
+vardas847 pavarde847       7.42          7
+vardas848 pavarde848       7.08          6
+vardas849 pavarde849       8.62          9
+vardas850 pavarde850       4.32          2
+vardas851 pavarde851       6.06          5
+vardas852 pavarde852       8.81         10
+vardas853 pavarde853       5.16          3
+vardas854 pavarde854       6.23          6
+vardas855 pavarde855       6.25          4
+vardas856 pavarde856       7.45          6
+vardas857 pavarde857       6.89          5
+vardas858 pavarde858       3.98          2
+vardas859 pavarde859          4          2
+vardas860 pavarde860          7          8
+vardas861 pavarde861        5.2          3
+vardas862 pavarde862       5.24          2
+vardas863 pavarde863       6.65          4
+vardas864 pavarde864       6.73          5
+vardas865 pavarde865       7.55          6
+vardas866 pavarde866       8.31          8
+vardas867 pavarde867       5.26          4
+vardas868 pavarde868       5.45          2
+vardas869 pavarde869       6.09          5
+vardas870 pavarde870       6.62          6
+vardas871 pavarde871       5.32          3
+vardas872 pavarde872       5.66          4
+vardas873 pavarde873       5.93          6
+vardas874 pavarde874       4.59          3
+vardas875 pavarde875       8.52          9
+vardas876 pavarde876        9.3          8
+vardas877 pavarde877       4.86          2
+vardas878 pavarde878       7.77          8
+vardas879 pavarde879       5.75          5
+vardas880 pavarde880       7.35          8
+vardas881 pavarde881       4.07          2
+vardas882 pavarde882       3.61          2
+vardas883 pavarde883       5.72          4
+vardas884 pavarde884       5.94          3
+vardas885 pavarde885       6.59          6
+vardas886 pavarde886       4.52          3
+vardas887 pavarde887        6.9          6
+vardas888 pavarde888       8.78          8
+vardas889 pavarde889       7.76          7
+vardas890 pavarde890       7.55          5
+vardas891 pavarde891       7.71          7
+vardas892 pavarde892       7.54          6
+vardas893 pavarde893       8.91          8
+vardas894 pavarde894       7.38          7
+vardas895 pavarde895       6.08          4
+vardas896 pavarde896       6.02          4
+vardas897 pavarde897        7.4          7
+vardas898 pavarde898       9.08          8
+vardas899 pavarde899       9.42          9
+vardas900 pavarde900       7.28          6
+vardas901 pavarde901       5.46          3
+vardas902 pavarde902       7.09          7
+vardas903 pavarde903       8.42          8
+vardas904 pavarde904       7.68          6
+vardas905 pavarde905       6.94          4
+vardas906 pavarde906       7.59          5
+vardas907 pavarde907       9.52          8
+vardas908 pavarde908        8.3          6
+vardas909 pavarde909       7.26          6
+vardas910 pavarde910       9.25         10
+vardas911 pavarde911       8.85          6
+vardas912 pavarde912       6.97          4
+vardas913 pavarde913       6.59          5
+vardas914 pavarde914       8.32          8
+vardas915 pavarde915       7.86          8
+vardas916 pavarde916       6.17          5
+vardas917 pavarde917       7.83          8
+vardas918 pavarde918       5.17          2
+vardas919 pavarde919       6.23          5
+vardas920 pavarde920       7.45          6
+vardas921 pavarde921       6.49          4
+vardas922 pavarde922        6.3          6
+vardas923 pavarde923       5.86          4
+vardas924 pavarde924       7.97          6
+vardas925 pavarde925       7.59          5
+vardas926 pavarde926       7.12          5
+vardas927 pavarde927       6.42          5
+vardas928 pavarde928       6.68          6
+vardas929 pavarde929       7.34          5
+vardas930 pavarde930       5.67          5
+vardas931 pavarde931       6.53          5
+vardas932 pavarde932       4.51          3
+vardas933 pavarde933        7.5          7
+vardas934 pavarde934        6.9          4
+vardas935 pavarde935       7.38          8
+vardas936 pavarde936       4.28          3
+vardas937 pavarde937       3.86          1
+vardas938 pavarde938       6.97          6
+vardas939 pavarde939       8.99          9
+vardas940 pavarde940        7.4          5
+vardas941 pavarde941       5.88          4
+vardas942 pavarde942       5.78          3
+vardas943 pavarde943       4.76          3
+vardas944 pavarde944       5.55          4
+vardas945 pavarde945       6.11          4
+vardas946 pavarde946       5.82          2
+vardas947 pavarde947       5.36          4
+vardas948 pavarde948       4.67          2
+vardas949 pavarde949       6.53          5
+vardas950 pavarde950       8.31          8
+vardas951 pavarde951       6.66          5
+vardas952 pavarde952       5.73          4
+vardas953 pavarde953       8.15          7
+vardas954 pavarde954       7.43          5
+vardas955 pavarde955       5.09          3
+vardas956 pavarde956       6.22          6
+vardas957 pavarde957       6.84          4
+vardas958 pavarde958       7.37          6
+vardas959 pavarde959       7.07          5
+vardas960 pavarde960       5.01          4
+vardas961 pavarde961        7.8          7
+vardas962 pavarde962       6.16          4
+vardas963 pavarde963       6.03          2
+vardas964 pavarde964       6.41          5
+vardas965 pavarde965       7.88          9
+vardas966 pavarde966       9.38         10
+vardas967 pavarde967       9.68          8
+vardas968 pavarde968       7.94          7
+vardas969 pavarde969       7.99          5
+vardas970 pavarde970        4.6          2
+vardas971 pavarde971       3.32          1
+vardas972 pavarde972       6.06          6
+vardas973 pavarde973       7.21          5
+vardas974 pavarde974       4.84          2
+vardas975 pavarde975       5.77          5
+vardas976 pavarde976       7.75          8
+vardas977 pavarde977       6.95          6
+vardas978 pavarde978       5.79          4
+vardas979 pavarde979       5.56          4
+vardas980 pavarde980       5.51          3
+vardas981 pavarde981        6.7          5
+vardas982 pavarde982       6.74          6
+vardas983 pavarde983       6.15          3
+vardas984 pavarde984       7.03          6
+vardas985 pavarde985       8.41          8
+vardas986 pavarde986       9.08          8
+vardas987 pavarde987       9.22          7
+vardas988 pavarde988       7.84          7
+vardas989 pavarde989       6.37          4
+vardas990 pavarde990       6.67          5
+vardas991 pavarde991       8.33          8
+vardas992 pavarde992       8.07          6
+vardas993 pavarde993       8.81          8
+vardas994 pavarde994       8.36          8
+vardas995 pavarde995       8.27          6
+vardas996 pavarde996       7.65          6
+vardas997 pavarde997       7.33          5
+vardas998 pavarde998       6.47          3
+vardas999 pavarde999       7.09          5
+vardas1000pavarde1000       8.82          7
+
 moliai:
-vardas9pavarde9 5.79248   4
-vardas12pavarde12 5.73434   5
-vardas13pavarde13 4.74687   3
-vardas14pavarde14 4.74937   2
-vardas20pavarde20 4.80523   4
-vardas22pavarde22 5.79221   4
-vardas23pavarde23 5.75844   3
-vardas27pavarde27 5.02041   5
-vardas31pavarde31 5.02883   4
-vardas36pavarde36 5.35617   3
-vardas37pavarde37 5.07123   4
-vardas39pavarde39 5.00285   3
-vardas40pavarde40 5.40057   4
-vardas47pavarde47 5.08813   3
-vardas65pavarde65 5.55783   5
-vardas66pavarde66 4.51157   3
-vardas72pavarde72 5.83389   4
-vardas74pavarde74 5.19336   3
-vardas81pavarde81 4.62227   3
-vardas82pavarde82 3.92445   3
-vardas85pavarde85  5.4874   4
-vardas95pavarde95 4.71734   4
-vardas98pavarde98 4.93374   2
-vardas99pavarde99 3.58675   2
-vardas104pavarde104 5.95731   3
-vardas105pavarde105 5.39146   4
-vardas106pavarde106 5.27829   4
-vardas108pavarde108 5.53113   3
-vardas131pavarde131 5.84851   4
-vardas134pavarde134 4.24679   3
-vardas140pavarde140 5.47438   4
-vardas142pavarde142 5.41898   3
-vardas144pavarde144 5.17676   3
-vardas146pavarde146 5.20707   3
-vardas148pavarde148 5.84828   4
-vardas154pavarde154 5.43109   3
-vardas159pavarde159 5.36238   3
-vardas167pavarde167 4.22406   2
-vardas174pavarde174 4.83301   4
-vardas175pavarde175  3.9666   3
-vardas179pavarde179 4.46555   4
-vardas182pavarde182 5.27572   4
-vardas186pavarde186 5.58924   2
-vardas188pavarde188 5.70357   2
-vardas189pavarde189 5.94071   3
-vardas190pavarde190 5.18814   4
-vardas195pavarde195 5.72582   4
-vardas205pavarde205 5.84596   4
-vardas206pavarde206 3.56919   2
-vardas211pavarde211 5.24082   4
-vardas214pavarde214 4.33793   3
-vardas217pavarde217  3.1147   2
-vardas220pavarde220 4.64092   3
-vardas222pavarde222 5.70564   3
-vardas223pavarde223 5.54113   3
-vardas224pavarde224 5.30823   2
-vardas226pavarde226 4.89233   4
-vardas227pavarde227 5.57847   4
-vardas229pavarde229 5.50314   2
-vardas230pavarde230 5.10063   2
-vardas238pavarde238 5.40987   4
-vardas247pavarde247 5.33697   3
-vardas250pavarde250  5.2907   3
-vardas254pavarde254 4.45807   2
-vardas272pavarde272 5.00669   5
-vardas282pavarde282 5.62464   5
-vardas285pavarde285   4.981   4
-vardas286pavarde286  5.7962   4
-vardas288pavarde288 5.39185   3
-vardas289pavarde289 4.87837   4
-vardas290pavarde290 4.77567   2
-vardas297pavarde297 5.15352   3
-vardas299pavarde299 4.40614   3
-vardas300pavarde300 4.68123   4
-vardas302pavarde302 5.54725   4
-vardas305pavarde305 4.01238   2
-vardas309pavarde309 5.39202   3
-vardas311pavarde311 5.65568   3
-vardas312pavarde312 2.93114   1
-vardas319pavarde319 5.52036   2
-vardas323pavarde323 5.13203   4
-vardas324pavarde324 5.82641   5
-vardas325pavarde325 5.76528   4
-vardas327pavarde327 4.71061   3
-vardas328pavarde328 5.14212   4
-vardas329pavarde329 5.42842   4
-vardas332pavarde332 5.97943   5
-vardas333pavarde333 5.79589   4
-vardas334pavarde334 3.95918   2
-vardas335pavarde335 5.99184   6
-vardas336pavarde336 4.59837   3
-vardas339pavarde339 3.57279   2
-vardas340pavarde340 4.51456   5
-vardas341pavarde341 5.10291   4
-vardas344pavarde344 5.81682   3
-vardas346pavarde346 4.87267   3
-vardas350pavarde350   4.779   3
-vardas351pavarde351  5.5558   4
-vardas352pavarde352 4.51116   3
-vardas353pavarde353 3.90223   3
-vardas358pavarde358 5.55485   4
-vardas363pavarde363 5.26386   4
-vardas366pavarde366 5.53811   5
-vardas381pavarde381 5.64087   4
-vardas382pavarde382 5.32817   4
-vardas385pavarde385 5.63463   2
-vardas389pavarde389 4.11462   2
-vardas395pavarde395 5.73274   3
-vardas411pavarde411 4.33505   1
-vardas414pavarde414 5.77068   5
-vardas415pavarde415 4.35414   3
-vardas429pavarde429 4.12002   2
-vardas430pavarde430   5.424   6
-vardas437pavarde437 5.69354   4
-vardas443pavarde443  5.0476   3
-vardas452pavarde452 5.38781   5
-vardas458pavarde458 5.73954   4
-vardas459pavarde459 4.94791   3
-vardas460pavarde460 4.78958   3
-vardas463pavarde463 3.08632   2
-vardas464pavarde464 5.61726   5
-vardas467pavarde467 5.14094   3
-vardas472pavarde472 5.22181   5
-vardas477pavarde477 4.98183   3
-vardas484pavarde484 5.02893   4
-vardas485pavarde485 4.60579   3
-vardas486pavarde486 3.92116   2
-vardas487pavarde487 5.38423   3
-vardas488pavarde488 4.47685   2
-vardas489pavarde489 5.09537   3
-vardas494pavarde494 4.18499   3
-vardas495pavarde495   4.637   2
-vardas500pavarde500   5.525   3
-vardas501pavarde501   5.505   4
-vardas506pavarde506  5.5112   3
-vardas508pavarde508 4.02045   2
-vardas520pavarde520 5.77286   4
-vardas524pavarde524 5.96604   5
-vardas532pavarde532 4.80769   1
-vardas534pavarde534 4.95231   3
-vardas551pavarde551 5.88322   4
-vardas564pavarde564 5.66072   4
-vardas567pavarde567 5.63729   3
-vardas580pavarde580 5.88607   3
-vardas581pavarde581 3.17721   1
-vardas590pavarde590  5.5511   3
-vardas617pavarde617 5.64228   4
-vardas620pavarde620 5.46914   5
-vardas623pavarde623 5.92375   3
-vardas636pavarde636 5.81612   4
-vardas638pavarde638 4.67264   3
-vardas639pavarde639 4.73453   4
-vardas640pavarde640 4.54691   3
-vardas642pavarde642 4.78188   4
-vardas643pavarde643 5.55638   4
-vardas646pavarde646 5.05245   4
-vardas647pavarde647 5.81049   5
-vardas648pavarde648  4.7621   3
-vardas649pavarde649 4.95242   4
-vardas652pavarde652 5.68762   3
-vardas655pavarde655  5.6935   2
-vardas660pavarde660 3.82102   3
-vardas661pavarde661  3.5642   1
-vardas663pavarde663 4.70257   3
-vardas664pavarde664 5.54051   4
-vardas665pavarde665  4.9081   3
-vardas666pavarde666 4.98162   3
-vardas668pavarde668 4.95926   3
-vardas671pavarde671 5.83967   3
-vardas674pavarde674 4.95072   4
-vardas681pavarde681  5.9325   5
-vardas684pavarde684 4.09546   3
-vardas692pavarde692 5.49605   3
-vardas693pavarde693 5.09921   2
-vardas694pavarde694 5.61984   5
-vardas699pavarde699 5.42068   3
-vardas709pavarde709 5.51351   3
-vardas714pavarde714 5.98096   4
-vardas715pavarde715 5.99619   5
-vardas716pavarde716 5.99924   4
-vardas718pavarde718 4.99997   3
-vardas722pavarde722    5.92   4
-vardas723pavarde723   5.384   4
-vardas724pavarde724  4.8768   3
-vardas727pavarde727 5.92701   5
-vardas728pavarde728  4.5854   4
-vardas731pavarde731 5.00468   3
-vardas732pavarde732 4.20094   2
-vardas737pavarde737 5.72774   3
-vardas738pavarde738 5.14555   3
-vardas740pavarde740 5.92582   5
-vardas744pavarde744 5.70708   2
-vardas746pavarde746 5.70828   5
-vardas748pavarde748 5.42833   4
-vardas753pavarde753  5.5291   3
-vardas754pavarde754 5.90582   3
-vardas755pavarde755 5.78116   5
-vardas758pavarde758 4.37425   3
-vardas761pavarde761 4.33899   2
-vardas762pavarde762  5.8678   4
-vardas765pavarde765 5.20694   3
-vardas767pavarde767 4.84828   3
-vardas768pavarde768 5.76966   6
-vardas777pavarde777 5.37268   2
-vardas778pavarde778 5.27454   2
-vardas784pavarde784 4.75867   3
-vardas785pavarde785 4.75173   3
-vardas793pavarde793 5.58783   5
-vardas796pavarde796  5.6127   4
-vardas799pavarde799  5.9329   4
-vardas813pavarde813   5.764   2
-vardas814pavarde814  5.7528   5
-vardas815pavarde815 5.15056   5
-vardas817pavarde817 4.96602   3
-vardas818pavarde818  3.9932   3
-vardas821pavarde821 5.23995   4
-vardas822pavarde822 5.84799   3
-vardas828pavarde828 5.51065   4
-vardas829pavarde829 5.30213   4
-vardas832pavarde832 5.08242   3
-vardas833pavarde833 5.41648   3
-vardas834pavarde834  4.2833   3
-vardas836pavarde836 5.57133   4
-vardas837pavarde837 5.91427   5
-vardas840pavarde840 4.86331   4
-vardas841pavarde841 5.57266   4
-vardas843pavarde843 4.82291   2
-vardas844pavarde844 5.16458   3
-vardas845pavarde845 5.43292   4
-vardas850pavarde850 4.32334   2
-vardas853pavarde853 5.16259   3
-vardas858pavarde858 3.97797   2
-vardas859pavarde859 3.99559   2
-vardas861pavarde861 5.19982   3
-vardas862pavarde862 5.23996   2
-vardas867pavarde867 5.26184   4
-vardas868pavarde868 5.45237   2
-vardas871pavarde871 5.32362   3
-vardas872pavarde872 5.66472   4
-vardas873pavarde873 5.93294   6
-vardas874pavarde874 4.58659   3
-vardas877pavarde877 4.86069   2
-vardas879pavarde879 5.75443   5
-vardas881pavarde881 4.07018   2
-vardas882pavarde882 3.61404   2
-vardas883pavarde883 5.72281   4
-vardas884pavarde884 5.94456   3
-vardas886pavarde886 4.51778   3
-vardas901pavarde901 5.45664   3
-vardas918pavarde918 5.16691   2
-vardas923pavarde923 5.85957   4
-vardas930pavarde930 5.66739   5
-vardas932pavarde932  4.5067   3
-vardas936pavarde936 4.27601   3
-vardas937pavarde937  3.8552   1
-vardas941pavarde941 5.87977   4
-vardas942pavarde942 5.77595   3
-vardas943pavarde943 4.75519   3
-vardas944pavarde944 5.55104   4
-vardas946pavarde946 5.82204   2
-vardas947pavarde947 5.36441   4
-vardas948pavarde948 4.67288   2
-vardas952pavarde952 5.73228   4
-vardas955pavarde955 5.08586   3
-vardas960pavarde960 5.01475   4
-vardas970pavarde970  4.5974   2
-vardas971pavarde971 3.31948   1
-vardas974pavarde974 4.84256   2
-vardas975pavarde975 5.76851   5
-vardas978pavarde978 5.79015   4
-vardas979pavarde979 5.55803   4
-vardas980pavarde980 5.51161   3
-malaciai:
-vardas1pavarde1     6.4   6
-vardas2pavarde2    8.28   8
-vardas3pavarde3   6.456   3
-vardas4pavarde4  7.4912   7
-vardas5pavarde5 8.29824   7
-vardas6pavarde6 9.05965   9
-vardas7pavarde7 8.81193   7
-vardas8pavarde8 7.96239   6
-vardas10pavarde10  7.3585   7
-vardas11pavarde11  6.6717   6
-vardas15pavarde15 6.34987   4
-vardas16pavarde16 6.26997   5
-vardas17pavarde17 7.65399   8
-vardas18pavarde18  6.1308   5
-vardas19pavarde19 7.02616   4
-vardas21pavarde21 8.96105   9
-vardas24pavarde24 7.55169   6
-vardas25pavarde25 6.51034   5
-vardas26pavarde26 7.10207   6
-vardas28pavarde28 6.60408   6
-vardas29pavarde29 7.72082   7
-vardas30pavarde30 6.14416   4
-vardas32pavarde32 8.60577   7
-vardas33pavarde33 7.52115   7
-vardas34pavarde34 7.90423   6
-vardas35pavarde35 7.78085   7
-vardas38pavarde38 7.01425   7
-vardas41pavarde41 6.08011   3
-vardas42pavarde42 6.41602   5
-vardas43pavarde43  9.0832   9
-vardas44pavarde44 7.01664   4
-vardas45pavarde45 8.20333   8
-vardas46pavarde46 6.44067   3
-vardas48pavarde48 8.21763   8
-vardas49pavarde49 8.84353   9
-vardas50pavarde50 6.96871   6
-vardas51pavarde51 8.79374   7
-vardas52pavarde52 6.55875   6
-vardas53pavarde53 6.31175   5
-vardas54pavarde54 7.26235   5
-vardas55pavarde55 7.45247   7
-vardas56pavarde56 7.29049   5
-vardas57pavarde57  7.4581   5
-vardas58pavarde58 6.29162   4
-vardas59pavarde59 8.05832   7
-vardas60pavarde60 7.21166   4
-vardas61pavarde61 6.64233   6
-vardas62pavarde62 6.72847   5
-vardas63pavarde63 7.94569   9
-vardas64pavarde64 6.78914   5
-vardas67pavarde67 7.90231   6
-vardas68pavarde68 6.18046   3
-vardas69pavarde69 8.23609   8
-vardas70pavarde70 8.84722   7
-vardas71pavarde71 7.16944   7
-vardas73pavarde73 6.96678   4
-vardas75pavarde75 8.03867   8
-vardas76pavarde76 7.60773   7
-vardas77pavarde77 7.92155   8
-vardas78pavarde78 7.78431   6
-vardas79pavarde79 6.55686   3
-vardas80pavarde80 6.11137   4
-vardas83pavarde83 8.18489   8
-vardas84pavarde84 8.43698   8
-vardas86pavarde86 6.89748   5
-vardas87pavarde87  6.3795   5
-vardas88pavarde88  7.2759   7
-vardas89pavarde89 7.45518   6
-vardas90pavarde90 6.69104   4
-vardas91pavarde91 6.33821   3
-vardas92pavarde92 7.66764   5
-vardas93pavarde93 7.93353   6
-vardas94pavarde94 6.58671   3
-vardas96pavarde96 6.34347   5
-vardas97pavarde97 7.66869   6
-vardas100pavarde100 6.31735   4
-vardas101pavarde101 6.66347   7
-vardas102pavarde102 8.93269  10
-vardas103pavarde103 7.78654   8
-vardas107pavarde107 6.65566   7
-vardas109pavarde109 7.10623   6
-vardas110pavarde110 8.82125   9
-vardas111pavarde111 7.36425   6
-vardas112pavarde112 6.67285   4
-vardas113pavarde113 6.13457   4
-vardas114pavarde114 8.22691   7
-vardas115pavarde115 7.04538   5
-vardas116pavarde116 7.00908   6
-vardas117pavarde117 7.00182   6
-vardas118pavarde118 6.60036   6
-vardas119pavarde119 6.52007   6
-vardas120pavarde120 7.50401   6
-vardas121pavarde121  7.3008   7
-vardas122pavarde122 7.06016   6
-vardas123pavarde123 8.01203   7
-vardas124pavarde124 8.00241   7
-vardas125pavarde125 7.00048   4
-vardas126pavarde126  6.6001   6
-vardas127pavarde127 7.32002   6
-vardas128pavarde128   8.064   5
-vardas129pavarde129  7.2128   4
-vardas130pavarde130 6.24256   2
-vardas132pavarde132  6.1697   4
-vardas133pavarde133 6.23394   3
-vardas135pavarde135 6.44936   6
-vardas136pavarde136 7.48987   7
-vardas137pavarde137  10.298  10
-vardas138pavarde138 8.85959   7
-vardas139pavarde139 8.37192   7
-vardas141pavarde141 7.09488   7
-vardas143pavarde143  6.8838   6
-vardas145pavarde145 7.03535   6
-vardas147pavarde147 6.24141   5
-vardas149pavarde149 6.16966   4
-vardas150pavarde150 6.43393   4
-vardas151pavarde151 7.88679   6
-vardas152pavarde152 6.77736   6
-vardas153pavarde153 7.15547   6
-vardas155pavarde155 6.48622   7
-vardas156pavarde156 6.29724   5
-vardas157pavarde157 6.05945   6
-vardas158pavarde158 8.81189   7
-vardas160pavarde160 9.07248   9
-vardas161pavarde161  9.0145   6
-vardas162pavarde162  6.2029   2
-vardas163pavarde163 7.04058   4
-vardas164pavarde164 8.00812   5
-vardas165pavarde165 7.60162   6
-vardas166pavarde166 6.12032   4
-vardas168pavarde168 7.84481   7
-vardas169pavarde169 8.16896   6
-vardas170pavarde170 7.63379   6
-vardas171pavarde171 8.12676   8
-vardas172pavarde172 6.82535   5
-vardas173pavarde173 6.16507   5
-vardas176pavarde176 7.19332   6
-vardas177pavarde177 7.63866   6
-vardas178pavarde178 7.32773   5
-vardas180pavarde180 6.89311   6
-vardas181pavarde181 7.37862   6
-vardas183pavarde183 6.65514   6
-vardas184pavarde184 7.73103   5
-vardas185pavarde185 9.94621   9
-vardas187pavarde187 6.51785   6
-vardas191pavarde191 8.63763   9
-vardas192pavarde192 6.72753   4
-vardas193pavarde193 7.14551   4
-vardas194pavarde194  6.6291   3
-vardas196pavarde196 6.14516   6
-vardas197pavarde197 6.02903   5
-vardas198pavarde198 8.00581   8
-vardas199pavarde199 7.20116   4
-vardas200pavarde200 6.64023   4
-vardas201pavarde201 7.72805   7
-vardas202pavarde202 6.74561   6
-vardas203pavarde203 7.14912   6
-vardas204pavarde204 6.22982   4
-vardas207pavarde207 8.51384   9
-vardas208pavarde208 6.10277   3
-vardas209pavarde209 7.02055   5
-vardas210pavarde210 8.20411   8
-vardas212pavarde212 7.44816   5
-vardas213pavarde213 7.68963   5
-vardas215pavarde215 7.86759   9
-vardas216pavarde216 6.57352   4
-vardas218pavarde218 7.02294   7
-vardas219pavarde219 6.20459   4
-vardas221pavarde221 8.52818   8
-vardas225pavarde225 6.46165   4
-vardas228pavarde228 6.51569   4
-vardas231pavarde231 9.42013   9
-vardas232pavarde232 7.28403   6
-vardas233pavarde233 6.85681   6
-vardas234pavarde234 7.17136   7
-vardas235pavarde235 6.23427   6
-vardas236pavarde236 6.24685   6
-vardas237pavarde237 6.04937   4
-vardas239pavarde239  10.482  10
-vardas240pavarde240 10.4964   9
-vardas241pavarde241 6.09928   5
-vardas242pavarde242 7.01986   5
-vardas243pavarde243 7.60397   8
-vardas244pavarde244 7.12079   5
-vardas245pavarde245 10.4242   9
-vardas246pavarde246 7.68483   6
-vardas248pavarde248 7.26739   7
-vardas249pavarde249 6.45348   6
-vardas251pavarde251 8.25814   7
-vardas252pavarde252 6.45163   6
-vardas253pavarde253 6.29033   5
-vardas255pavarde255 6.49161   6
-vardas256pavarde256 7.09832   6
-vardas257pavarde257 7.21966   6
-vardas258pavarde258 7.44393   6
-vardas259pavarde259 6.48879   4
-vardas260pavarde260 6.29776   5
-vardas261pavarde261 10.2596   9
-vardas262pavarde262 7.05191   5
-vardas263pavarde263 6.61038   5
-vardas264pavarde264 7.72208   5
-vardas265pavarde265 9.34442   8
-vardas266pavarde266 7.46888   5
-vardas267pavarde267 7.89378   7
-vardas268pavarde268 9.17876   9
-vardas269pavarde269 6.83575   5
-vardas270pavarde270 8.16715   6
-vardas271pavarde271 7.03343   6
-vardas273pavarde273 6.00134   5
-vardas274pavarde274 8.20027   7
-vardas275pavarde275 8.04005   7
-vardas276pavarde276 8.00801   7
-vardas277pavarde277  9.0016   8
-vardas278pavarde278 7.40032   5
-vardas279pavarde279 8.08006   7
-vardas280pavarde280 6.61601   5
-vardas281pavarde281  6.1232   4
-vardas283pavarde283 6.52493   5
-vardas284pavarde284 6.90499   5
-vardas287pavarde287 6.95924   4
-vardas291pavarde291 8.75513   8
-vardas292pavarde292 6.75103   4
-vardas293pavarde293 7.95021   7
-vardas294pavarde294 8.19004   7
-vardas295pavarde295 6.83801   4
-vardas296pavarde296  6.7676   5
-vardas298pavarde298  6.0307   5
-vardas301pavarde301 8.73625   8
-vardas303pavarde303 7.30945   8
-vardas304pavarde304 7.06189   7
-vardas306pavarde306 7.00248   8
-vardas307pavarde307  7.8005   7
-vardas308pavarde308  6.9601   4
-vardas310pavarde310  7.2784   7
-vardas313pavarde313 6.58623   7
-vardas314pavarde314 8.11725   9
-vardas315pavarde315 9.22345  10
-vardas316pavarde316 8.04469   7
-vardas317pavarde317 6.00894   5
-vardas318pavarde318 7.60179   9
-vardas320pavarde320 8.50407   8
-vardas321pavarde321 7.30081   6
-vardas322pavarde322 7.66016   6
-vardas326pavarde326 7.55306   7
-vardas330pavarde330 6.48568   5
-vardas331pavarde331 6.89714   8
-vardas337pavarde337 8.31967   7
-vardas338pavarde338 6.86393   5
-vardas342pavarde342 9.42058   9
-vardas343pavarde343 10.0841  10
-vardas345pavarde345 8.36336   8
-vardas347pavarde347 7.37453   6
-vardas348pavarde348 6.47491   5
-vardas349pavarde349 7.89498   6
-vardas354pavarde354 6.78045   7
-vardas355pavarde355 6.35609   5
-vardas356pavarde356 8.87122   7
-vardas357pavarde357 8.77424   8
-vardas359pavarde359 6.91097   6
-vardas360pavarde360 6.98219   4
-vardas361pavarde361 6.59644   5
-vardas362pavarde362 6.31929   6
-vardas364pavarde364 7.45277   6
-vardas365pavarde365 6.69055   5
-vardas367pavarde367 6.70762   4
-vardas368pavarde368 8.34152   9
-vardas369pavarde369  6.6683   5
-vardas370pavarde370 6.33366   5
-vardas371pavarde371 8.46673   8
-vardas372pavarde372 8.49335   7
-vardas373pavarde373 8.29867   8
-vardas374pavarde374 8.05973   7
-vardas375pavarde375 8.61195   6
-vardas376pavarde376 8.72239   6
-vardas377pavarde377 7.54448   5
-vardas378pavarde378  7.1089   5
-vardas379pavarde379 9.02178   8
-vardas380pavarde380 7.20436   4
-vardas383pavarde383 7.86563   6
-vardas384pavarde384 7.17313   4
-vardas386pavarde386 7.32693   8
-vardas387pavarde387 7.86539   7
-vardas388pavarde388 6.57308   7
-vardas390pavarde390 7.82292   6
-vardas391pavarde391 7.96458   7
-vardas392pavarde392 9.59292   9
-vardas393pavarde393 6.31858   3
-vardas394pavarde394 7.66372   7
-vardas396pavarde396 7.14655   7
-vardas397pavarde397 9.02931   7
-vardas398pavarde398 9.00586   9
-vardas399pavarde399 8.80117   8
-vardas400pavarde400 8.76023   8
-vardas401pavarde401 9.15205   7
-vardas402pavarde402 7.43041   6
-vardas403pavarde403 9.48608   8
-vardas404pavarde404 7.09722   6
-vardas405pavarde405 9.21944   9
-vardas406pavarde406 9.04389   8
-vardas407pavarde407 6.40878   3
-vardas408pavarde408 6.88176   5
-vardas409pavarde409 7.37635   9
-vardas410pavarde410 7.67527   5
-vardas412pavarde412 7.26701   6
-vardas413pavarde413  7.8534   6
-vardas416pavarde416 6.27083   7
-vardas417pavarde417 7.65417   7
-vardas418pavarde418 7.33083   6
-vardas419pavarde419 7.46617   6
-vardas420pavarde420 7.29323   6
-vardas421pavarde421 9.05865   7
-vardas422pavarde422 8.21173   7
-vardas423pavarde423 6.24235   3
-vardas424pavarde424 7.04847   6
-vardas425pavarde425 7.00969   5
-vardas426pavarde426 6.00194   6
-vardas427pavarde427 8.00039   7
-vardas428pavarde428 7.60008   7
-vardas431pavarde431  9.4848   8
-vardas432pavarde432 6.29696   3
-vardas433pavarde433 7.45939   7
-vardas434pavarde434 6.69188   6
-vardas435pavarde435 6.33838   3
-vardas436pavarde436 6.46768   5
-vardas438pavarde438 7.73871   9
-vardas439pavarde439 8.74774   8
-vardas440pavarde440 6.94955   5
-vardas441pavarde441 9.18991   8
-vardas442pavarde442 7.23798   6
-vardas444pavarde444 8.20952  10
-vardas445pavarde445  8.0419   5
-vardas446pavarde446 8.60838   6
-vardas447pavarde447 6.92168   6
-vardas448pavarde448 7.38434   6
-vardas449pavarde449 7.47687   5
-vardas450pavarde450 6.69537   5
-vardas451pavarde451 6.93907   6
-vardas453pavarde453 6.07756   6
-vardas454pavarde454 7.21551   7
-vardas455pavarde455  7.4431   6
-vardas456pavarde456 7.48862   6
-vardas457pavarde457 6.69772   5
-vardas461pavarde461 6.15792   5
-vardas462pavarde462 6.43158   7
-vardas465pavarde465 6.52345   6
-vardas466pavarde466 9.70469  10
-vardas468pavarde468 6.62819   5
-vardas469pavarde469 6.72564   5
-vardas470pavarde470 8.54513   8
-vardas471pavarde471 7.10903   6
-vardas473pavarde473 6.64436   7
-vardas474pavarde474 7.72887   6
-vardas475pavarde475 7.54577   8
-vardas476pavarde476 7.90915   8
-vardas478pavarde478 7.99637   8
-vardas479pavarde479 9.39927   9
-vardas480pavarde480 8.07985   6
-vardas481pavarde481 7.61597   6
-vardas482pavarde482 7.72319   6
-vardas483pavarde483 7.14464   4
-vardas490pavarde490 6.61907   6
-vardas491pavarde491 6.12381   5
-vardas492pavarde492 6.62476   6
-vardas493pavarde493 6.92495   7
-vardas496pavarde496  7.1274   6
-vardas497pavarde497 7.62548   7
-vardas498pavarde498  8.1251   7
-vardas499pavarde499 8.62502   7
-vardas502pavarde502   7.501   6
-vardas503pavarde503  7.9002   7
-vardas504pavarde504 8.78004   7
-vardas505pavarde505 8.55601   7
-vardas507pavarde507 6.10224   5
-vardas509pavarde509 7.00409   7
-vardas510pavarde510 7.00082   6
-vardas511pavarde511 9.00016   7
-vardas512pavarde512 6.20003   5
-vardas513pavarde513 6.44001   6
-vardas514pavarde514   7.888   8
-vardas515pavarde515  9.1776   9
-vardas516pavarde516 8.03552   8
-vardas517pavarde517  6.6071   4
-vardas518pavarde518 6.32142   5
-vardas519pavarde519 6.86428   6
-vardas521pavarde521 6.75457   5
-vardas522pavarde522 6.15091   6
-vardas523pavarde523 6.83018   4
-vardas525pavarde525 9.39321   8
-vardas526pavarde526 8.07864   8
-vardas527pavarde527 9.01573   7
-vardas528pavarde528 7.80315   7
-vardas529pavarde529 6.96063   5
-vardas530pavarde530 6.19213   5
-vardas531pavarde531 6.03843   4
-vardas533pavarde533 6.76154   8
-vardas535pavarde535 6.39046   5
-vardas536pavarde536 6.27809   6
-vardas537pavarde537 8.85562   9
-vardas538pavarde538 8.37112   7
-vardas539pavarde539 7.27422   6
-vardas540pavarde540 6.65484   5
-vardas541pavarde541 6.93097   5
-vardas542pavarde542 6.18619   4
-vardas543pavarde543 9.23724   8
-vardas544pavarde544 8.44745   6
-vardas545pavarde545 8.28949   7
-vardas546pavarde546  7.0579   5
-vardas547pavarde547 7.01158   5
-vardas548pavarde548 7.40232   7
-vardas549pavarde549 8.08046   6
-vardas550pavarde550 6.41609   4
-vardas552pavarde552 6.57664   6
-vardas553pavarde553 8.11533   8
-vardas554pavarde554 7.42307   7
-vardas555pavarde555 8.88461  10
-vardas556pavarde556 9.57692   9
-vardas557pavarde557 6.91538   4
-vardas558pavarde558 8.78308   8
-vardas559pavarde559 7.75662   7
-vardas560pavarde560 6.95132   6
-vardas561pavarde561 8.59026   7
-vardas562pavarde562 6.51805   5
-vardas563pavarde563 7.30361   5
-vardas565pavarde565 6.93214   6
-vardas566pavarde566 7.18643   5
-vardas568pavarde568 9.12746  10
-vardas569pavarde569 7.42549   7
-vardas570pavarde570  6.2851   6
-vardas571pavarde571 6.65702   4
-vardas572pavarde572  7.3314   6
-vardas573pavarde573 9.06628   9
-vardas574pavarde574 9.81326   9
-vardas575pavarde575 9.96265   9
-vardas576pavarde576 6.79253   5
-vardas577pavarde577 6.75851   7
-vardas578pavarde578  7.1517   7
-vardas579pavarde579 7.43034   6
-vardas582pavarde582 6.63544   6
-vardas583pavarde583 9.92709   9
-vardas584pavarde584 6.98542   2
-vardas585pavarde585 6.19708   5
-vardas586pavarde586 7.43942   6
-vardas587pavarde587 6.88788   5
-vardas588pavarde588 6.77758   6
-vardas589pavarde589 6.75552   5
-vardas591pavarde591 9.11022   8
-vardas592pavarde592 6.02204   3
-vardas593pavarde593 8.60441   7
-vardas594pavarde594 7.12088   6
-vardas595pavarde595 7.82418   7
-vardas596pavarde596 7.76484   6
-vardas597pavarde597 8.35297   7
-vardas598pavarde598 7.27059   4
-vardas599pavarde599 7.65412   7
-vardas600pavarde600 7.93082   7
-vardas601pavarde601 7.98616   8
-vardas602pavarde602 7.59723   7
-vardas603pavarde603 8.71945   7
-vardas604pavarde604 9.14389   7
-vardas605pavarde605 9.02878   8
-vardas606pavarde606 7.00576   5
-vardas607pavarde607 7.80115   7
-vardas608pavarde608 7.56023   6
-vardas609pavarde609 7.51205   8
-vardas610pavarde610 6.30241   4
-vardas611pavarde611 6.66048   5
-vardas612pavarde612  9.1321   8
-vardas613pavarde613 7.42642   4
-vardas614pavarde614 7.28528   6
-vardas615pavarde615 8.05706   6
-vardas616pavarde616 6.21141   4
-vardas618pavarde618 7.72846   9
-vardas619pavarde619 7.34569   8
-vardas621pavarde621 8.09383   7
-vardas622pavarde622 8.61877   8
-vardas624pavarde624 6.58475   6
-vardas625pavarde625 8.71695   7
-vardas626pavarde626 6.14339   5
-vardas627pavarde627 6.62868   6
-vardas628pavarde628 8.32574   6
-vardas629pavarde629 6.66515   5
-vardas630pavarde630 9.93303   9
-vardas631pavarde631 7.38661   7
-vardas632pavarde632 7.07732   6
-vardas633pavarde633 8.01546   8
-vardas634pavarde634 7.40309   7
-vardas635pavarde635 7.08062   4
-vardas637pavarde637 6.36322   7
-vardas641pavarde641 6.90938   5
-vardas644pavarde644 6.31128   6
-vardas645pavarde645 7.26226   7
-vardas650pavarde650 8.19048   8
-vardas651pavarde651  6.4381   4
-vardas653pavarde653 7.33752   6
-vardas654pavarde654  7.4675   6
-vardas656pavarde656  8.1387   7
-vardas657pavarde657 8.62774   8
-vardas658pavarde658 8.52555   7
-vardas659pavarde659 6.10511   4
-vardas662pavarde662 6.51284   5
-vardas667pavarde667 6.79632   5
-vardas669pavarde669 6.99185   7
-vardas670pavarde670 6.19837   6
-vardas672pavarde672 8.76793  10
-vardas673pavarde673 7.75359   6
-vardas675pavarde675 6.39014   6
-vardas676pavarde676 6.07803   3
-vardas677pavarde677 8.81561   9
-vardas678pavarde678 6.56312   5
-vardas679pavarde679 7.31262   5
-vardas680pavarde680 8.66252   8
-vardas682pavarde682  6.3865   4
-vardas683pavarde683  7.4773   7
-vardas685pavarde685 6.01909   5
-vardas686pavarde686 7.80382   7
-vardas687pavarde687 6.16076   4
-vardas688pavarde688 6.03215   4
-vardas689pavarde689 7.00643   6
-vardas690pavarde690 9.40129   9
-vardas691pavarde691 7.48026   7
-vardas695pavarde695 6.92397   8
-vardas696pavarde696 8.58479   9
-vardas697pavarde697 7.51696   6
-vardas698pavarde698 6.10339   5
-vardas700pavarde700 8.28414   7
-vardas701pavarde701 8.25683   8
-vardas702pavarde702 7.85137   6
-vardas703pavarde703 7.57027   6
-vardas704pavarde704 7.71405   8
-vardas705pavarde705 6.94281   6
-vardas706pavarde706 8.18856   9
-vardas707pavarde707 6.83771   5
-vardas708pavarde708 7.56754   6
-vardas710pavarde710  8.1027   8
-vardas711pavarde711 7.62054   5
-vardas712pavarde712 9.52411   8
-vardas713pavarde713 6.90482   4
-vardas717pavarde717 8.99985   8
-vardas719pavarde719 6.99999   6
-vardas720pavarde720       7   5
-vardas721pavarde721     7.6   6
-vardas725pavarde725 7.17536   7
-vardas726pavarde726 6.63507   6
-vardas729pavarde729 6.11708   4
-vardas730pavarde730 7.02342   5
-vardas733pavarde733 8.84019  10
-vardas734pavarde734 9.96804   9
-vardas735pavarde735 6.19361   3
-vardas736pavarde736 7.63872   8
-vardas739pavarde739 7.62911   6
-vardas741pavarde741 6.38516   6
-vardas742pavarde742 8.67703   8
-vardas743pavarde743 8.53541   6
-vardas745pavarde745 6.54142   8
-vardas747pavarde747 7.14166   6
-vardas749pavarde749 6.68567   5
-vardas750pavarde750 8.13713   8
-vardas751pavarde751 10.2274   9
-vardas752pavarde752 7.64549   6
-vardas756pavarde756 7.35623   6
-vardas757pavarde757 6.87125   5
-vardas759pavarde759 9.47485  10
-vardas760pavarde760 8.69497   6
-vardas763pavarde763 8.17356   7
-vardas764pavarde764 8.03471   7
-vardas766pavarde766 6.24139   5
-vardas769pavarde769 7.15393   5
-vardas770pavarde770 6.63079   5
-vardas771pavarde771 7.12616   6
-vardas772pavarde772 6.62523   5
-vardas773pavarde773 6.92505   5
-vardas774pavarde774 7.58501   7
-vardas775pavarde775   8.317   7
-vardas776pavarde776  7.8634   7
-vardas779pavarde779 6.85491   5
-vardas780pavarde780 8.17098   8
-vardas781pavarde781  7.8342   7
-vardas782pavarde782 6.96684   6
-vardas783pavarde783 6.79337   5
-vardas786pavarde786 7.15035   7
-vardas787pavarde787 8.83007   9
-vardas788pavarde788 6.96601   5
-vardas789pavarde789  7.3932   5
-vardas790pavarde790 6.47864   4
-vardas791pavarde791 6.69573   4
-vardas792pavarde792 6.93915   7
-vardas794pavarde794 7.31757   6
-vardas795pavarde795 7.06351   5
-vardas797pavarde797 9.32254   8
-vardas798pavarde798 8.66451   7
-vardas800pavarde800 8.18658   7
-vardas801pavarde801 7.43732   5
-vardas802pavarde802 7.28746   5
-vardas803pavarde803 8.45749   7
-vardas804pavarde804  7.4915   7
-vardas805pavarde805  8.0983   7
-vardas806pavarde806 6.81966   6
-vardas807pavarde807 6.56393   4
-vardas808pavarde808 8.51279   8
-vardas809pavarde809 6.50256   5
-vardas810pavarde810 7.50051   7
-vardas811pavarde811  6.1001   3
-vardas812pavarde812 6.82002   5
-vardas816pavarde816 8.83011   9
-vardas819pavarde819 6.99864   6
-vardas820pavarde820 6.19973   5
-vardas823pavarde823  6.7696   6
-vardas824pavarde824 7.15392   6
-vardas825pavarde825 6.83078   5
-vardas826pavarde826 6.76616   6
-vardas827pavarde827 6.55323   6
-vardas830pavarde830 7.06043   6
-vardas831pavarde831 6.41209   3
-vardas835pavarde835 6.85666   7
-vardas838pavarde838 6.58285   5
-vardas839pavarde839 6.31657   5
-vardas842pavarde842 7.11453   5
-vardas846pavarde846 6.08658   5
-vardas847pavarde847 7.41732   7
-vardas848pavarde848 7.08346   6
-vardas849pavarde849 8.61669   9
-vardas851pavarde851 6.06467   5
-vardas852pavarde852 8.81293  10
-vardas854pavarde854 6.23252   6
-vardas855pavarde855  6.2465   4
-vardas856pavarde856  7.4493   6
-vardas857pavarde857 6.88986   5
-vardas860pavarde860 6.99912   8
-vardas863pavarde863 6.64799   4
-vardas864pavarde864  6.7296   5
-vardas865pavarde865 7.54592   6
-vardas866pavarde866 8.30918   8
-vardas869pavarde869 6.09047   5
-vardas870pavarde870 6.61809   6
-vardas875pavarde875 8.51732   9
-vardas876pavarde876 9.30346   8
-vardas878pavarde878 7.77214   8
-vardas880pavarde880 7.35089   8
-vardas885pavarde885 6.58891   6
-vardas887pavarde887 6.90356   6
-vardas888pavarde888 8.78071   8
-vardas889pavarde889 7.75614   7
-vardas890pavarde890 7.55123   5
-vardas891pavarde891 7.71025   7
-vardas892pavarde892 7.54205   6
-vardas893pavarde893 8.90841   8
-vardas894pavarde894 7.38168   7
-vardas895pavarde895 6.07634   4
-vardas896pavarde896 6.01527   4
-vardas897pavarde897 7.40305   7
-vardas898pavarde898 9.08061   8
-vardas899pavarde899 9.41612   9
-vardas900pavarde900 7.28322   6
-vardas902pavarde902 7.09133   7
-vardas903pavarde903 8.41827   8
-vardas904pavarde904 7.68365   6
-vardas905pavarde905 6.93673   4
-vardas906pavarde906 7.58735   5
-vardas907pavarde907 9.51747   8
-vardas908pavarde908 8.30349   6
-vardas909pavarde909  7.2607   6
-vardas910pavarde910 9.25214  10
-vardas911pavarde911 8.85043   6
-vardas912pavarde912 6.97009   4
-vardas913pavarde913 6.59402   5
-vardas914pavarde914  8.3188   8
-vardas915pavarde915 7.86376   8
-vardas916pavarde916 6.17275   5
-vardas917pavarde917 7.83455   8
-vardas919pavarde919 6.23338   5
-vardas920pavarde920 7.44668   6
-vardas921pavarde921 6.48934   4
-vardas922pavarde922 6.29787   6
-vardas924pavarde924 7.97191   6
-vardas925pavarde925 7.59438   5
-vardas926pavarde926 7.11888   5
-vardas927pavarde927 6.42378   5
-vardas928pavarde928 6.68476   6
-vardas929pavarde929 7.33695   5
-vardas931pavarde931 6.53348   5
-vardas933pavarde933 7.50134   7
-vardas934pavarde934 6.90027   4
-vardas935pavarde935 7.38005   8
-vardas938pavarde938 6.97104   6
-vardas939pavarde939 8.99421   9
-vardas940pavarde940 7.39884   5
-vardas945pavarde945 6.11021   4
-vardas949pavarde949 6.53458   5
-vardas950pavarde950 8.30692   8
-vardas951pavarde951 6.66138   5
-vardas953pavarde953 8.14646   7
-vardas954pavarde954 7.42929   5
-vardas956pavarde956 6.21717   6
-vardas957pavarde957 6.84343   4
-vardas958pavarde958 7.36869   6
-vardas959pavarde959 7.07374   5
-vardas961pavarde961 7.80295   7
-vardas962pavarde962 6.16059   4
-vardas963pavarde963 6.03212   2
-vardas964pavarde964 6.40642   5
-vardas965pavarde965 7.88128   9
-vardas966pavarde966 9.37626  10
-vardas967pavarde967 9.67525   8
-vardas968pavarde968 7.93505   7
-vardas969pavarde969 7.98701   5
-vardas972pavarde972  6.0639   6
-vardas973pavarde973 7.21278   5
-vardas976pavarde976  7.7537   8
-vardas977pavarde977 6.95074   6
-vardas981pavarde981 6.70232   5
-vardas982pavarde982 6.74046   6
-vardas983pavarde983 6.14809   3
-vardas984pavarde984 7.02962   6
-vardas985pavarde985 8.40592   8
-vardas986pavarde986 9.08118   8
-vardas987pavarde987 9.21624   7
-vardas988pavarde988 7.84325   7
-vardas989pavarde989 6.36865   4
-vardas990pavarde990 6.67373   5
-vardas991pavarde991 8.33475   8
-vardas992pavarde992 8.06695   6
-vardas993pavarde993 8.81339   8
-vardas994pavarde994 8.36268   8
-vardas995pavarde995 8.27254   6
-vardas996pavarde996 7.65451   6
-vardas997pavarde997  7.3309   5
-vardas998pavarde998 6.46618   3
-vardas999pavarde999 7.09324   5
-vardas1000pavarde1000 8.81865   7
+Vardas    Pavarde      vidurkis     mediana
+vardas9   pavarde9       5.79          4
+vardas12  pavarde12       5.73          5
+vardas13  pavarde13       4.75          3
+vardas14  pavarde14       4.75          2
+vardas20  pavarde20       4.81          4
+vardas22  pavarde22       5.79          4
+vardas23  pavarde23       5.76          3
+vardas27  pavarde27       5.02          5
+vardas31  pavarde31       5.03          4
+vardas36  pavarde36       5.36          3
+vardas37  pavarde37       5.07          4
+vardas39  pavarde39          5          3
+vardas40  pavarde40        5.4          4
+vardas47  pavarde47       5.09          3
+vardas65  pavarde65       5.56          5
+vardas66  pavarde66       4.51          3
+vardas72  pavarde72       5.83          4
+vardas74  pavarde74       5.19          3
+vardas81  pavarde81       4.62          3
+vardas82  pavarde82       3.92          3
+vardas85  pavarde85       5.49          4
+vardas95  pavarde95       4.72          4
+vardas98  pavarde98       4.93          2
+vardas99  pavarde99       3.59          2
+vardas104 pavarde104       5.96          3
+vardas105 pavarde105       5.39          4
+vardas106 pavarde106       5.28          4
+vardas108 pavarde108       5.53          3
+vardas131 pavarde131       5.85          4
+vardas134 pavarde134       4.25          3
+vardas140 pavarde140       5.47          4
+vardas142 pavarde142       5.42          3
+vardas144 pavarde144       5.18          3
+vardas146 pavarde146       5.21          3
+vardas148 pavarde148       5.85          4
+vardas154 pavarde154       5.43          3
+vardas159 pavarde159       5.36          3
+vardas167 pavarde167       4.22          2
+vardas174 pavarde174       4.83          4
+vardas175 pavarde175       3.97          3
+vardas179 pavarde179       4.47          4
+vardas182 pavarde182       5.28          4
+vardas186 pavarde186       5.59          2
+vardas188 pavarde188        5.7          2
+vardas189 pavarde189       5.94          3
+vardas190 pavarde190       5.19          4
+vardas195 pavarde195       5.73          4
+vardas205 pavarde205       5.85          4
+vardas206 pavarde206       3.57          2
+vardas211 pavarde211       5.24          4
+vardas214 pavarde214       4.34          3
+vardas217 pavarde217       3.11          2
+vardas220 pavarde220       4.64          3
+vardas222 pavarde222       5.71          3
+vardas223 pavarde223       5.54          3
+vardas224 pavarde224       5.31          2
+vardas226 pavarde226       4.89          4
+vardas227 pavarde227       5.58          4
+vardas229 pavarde229        5.5          2
+vardas230 pavarde230        5.1          2
+vardas238 pavarde238       5.41          4
+vardas247 pavarde247       5.34          3
+vardas250 pavarde250       5.29          3
+vardas254 pavarde254       4.46          2
+vardas272 pavarde272       5.01          5
+vardas282 pavarde282       5.62          5
+vardas285 pavarde285       4.98          4
+vardas286 pavarde286        5.8          4
+vardas288 pavarde288       5.39          3
+vardas289 pavarde289       4.88          4
+vardas290 pavarde290       4.78          2
+vardas297 pavarde297       5.15          3
+vardas299 pavarde299       4.41          3
+vardas300 pavarde300       4.68          4
+vardas302 pavarde302       5.55          4
+vardas305 pavarde305       4.01          2
+vardas309 pavarde309       5.39          3
+vardas311 pavarde311       5.66          3
+vardas312 pavarde312       2.93          1
+vardas319 pavarde319       5.52          2
+vardas323 pavarde323       5.13          4
+vardas324 pavarde324       5.83          5
+vardas325 pavarde325       5.77          4
+vardas327 pavarde327       4.71          3
+vardas328 pavarde328       5.14          4
+vardas329 pavarde329       5.43          4
+vardas332 pavarde332       5.98          5
+vardas333 pavarde333        5.8          4
+vardas334 pavarde334       3.96          2
+vardas335 pavarde335       5.99          6
+vardas336 pavarde336        4.6          3
+vardas339 pavarde339       3.57          2
+vardas340 pavarde340       4.51          5
+vardas341 pavarde341        5.1          4
+vardas344 pavarde344       5.82          3
+vardas346 pavarde346       4.87          3
+vardas350 pavarde350       4.78          3
+vardas351 pavarde351       5.56          4
+vardas352 pavarde352       4.51          3
+vardas353 pavarde353        3.9          3
+vardas358 pavarde358       5.55          4
+vardas363 pavarde363       5.26          4
+vardas366 pavarde366       5.54          5
+vardas381 pavarde381       5.64          4
+vardas382 pavarde382       5.33          4
+vardas385 pavarde385       5.63          2
+vardas389 pavarde389       4.11          2
+vardas395 pavarde395       5.73          3
+vardas411 pavarde411       4.34          1
+vardas414 pavarde414       5.77          5
+vardas415 pavarde415       4.35          3
+vardas429 pavarde429       4.12          2
+vardas430 pavarde430       5.42          6
+vardas437 pavarde437       5.69          4
+vardas443 pavarde443       5.05          3
+vardas452 pavarde452       5.39          5
+vardas458 pavarde458       5.74          4
+vardas459 pavarde459       4.95          3
+vardas460 pavarde460       4.79          3
+vardas463 pavarde463       3.09          2
+vardas464 pavarde464       5.62          5
+vardas467 pavarde467       5.14          3
+vardas472 pavarde472       5.22          5
+vardas477 pavarde477       4.98          3
+vardas484 pavarde484       5.03          4
+vardas485 pavarde485       4.61          3
+vardas486 pavarde486       3.92          2
+vardas487 pavarde487       5.38          3
+vardas488 pavarde488       4.48          2
+vardas489 pavarde489        5.1          3
+vardas494 pavarde494       4.18          3
+vardas495 pavarde495       4.64          2
+vardas500 pavarde500       5.53          3
+vardas501 pavarde501       5.51          4
+vardas506 pavarde506       5.51          3
+vardas508 pavarde508       4.02          2
+vardas520 pavarde520       5.77          4
+vardas524 pavarde524       5.97          5
+vardas532 pavarde532       4.81          1
+vardas534 pavarde534       4.95          3
+vardas551 pavarde551       5.88          4
+vardas564 pavarde564       5.66          4
+vardas567 pavarde567       5.64          3
+vardas580 pavarde580       5.89          3
+vardas581 pavarde581       3.18          1
+vardas590 pavarde590       5.55          3
+vardas617 pavarde617       5.64          4
+vardas620 pavarde620       5.47          5
+vardas623 pavarde623       5.92          3
+vardas636 pavarde636       5.82          4
+vardas638 pavarde638       4.67          3
+vardas639 pavarde639       4.73          4
+vardas640 pavarde640       4.55          3
+vardas642 pavarde642       4.78          4
+vardas643 pavarde643       5.56          4
+vardas646 pavarde646       5.05          4
+vardas647 pavarde647       5.81          5
+vardas648 pavarde648       4.76          3
+vardas649 pavarde649       4.95          4
+vardas652 pavarde652       5.69          3
+vardas655 pavarde655       5.69          2
+vardas660 pavarde660       3.82          3
+vardas661 pavarde661       3.56          1
+vardas663 pavarde663        4.7          3
+vardas664 pavarde664       5.54          4
+vardas665 pavarde665       4.91          3
+vardas666 pavarde666       4.98          3
+vardas668 pavarde668       4.96          3
+vardas671 pavarde671       5.84          3
+vardas674 pavarde674       4.95          4
+vardas681 pavarde681       5.93          5
+vardas684 pavarde684        4.1          3
+vardas692 pavarde692        5.5          3
+vardas693 pavarde693        5.1          2
+vardas694 pavarde694       5.62          5
+vardas699 pavarde699       5.42          3
+vardas709 pavarde709       5.51          3
+vardas714 pavarde714       5.98          4
+vardas715 pavarde715          6          5
+vardas716 pavarde716          6          4
+vardas718 pavarde718          5          3
+vardas722 pavarde722       5.92          4
+vardas723 pavarde723       5.38          4
+vardas724 pavarde724       4.88          3
+vardas727 pavarde727       5.93          5
+vardas728 pavarde728       4.59          4
+vardas731 pavarde731          5          3
+vardas732 pavarde732        4.2          2
+vardas737 pavarde737       5.73          3
+vardas738 pavarde738       5.15          3
+vardas740 pavarde740       5.93          5
+vardas744 pavarde744       5.71          2
+vardas746 pavarde746       5.71          5
+vardas748 pavarde748       5.43          4
+vardas753 pavarde753       5.53          3
+vardas754 pavarde754       5.91          3
+vardas755 pavarde755       5.78          5
+vardas758 pavarde758       4.37          3
+vardas761 pavarde761       4.34          2
+vardas762 pavarde762       5.87          4
+vardas765 pavarde765       5.21          3
+vardas767 pavarde767       4.85          3
+vardas768 pavarde768       5.77          6
+vardas777 pavarde777       5.37          2
+vardas778 pavarde778       5.27          2
+vardas784 pavarde784       4.76          3
+vardas785 pavarde785       4.75          3
+vardas793 pavarde793       5.59          5
+vardas796 pavarde796       5.61          4
+vardas799 pavarde799       5.93          4
+vardas813 pavarde813       5.76          2
+vardas814 pavarde814       5.75          5
+vardas815 pavarde815       5.15          5
+vardas817 pavarde817       4.97          3
+vardas818 pavarde818       3.99          3
+vardas821 pavarde821       5.24          4
+vardas822 pavarde822       5.85          3
+vardas828 pavarde828       5.51          4
+vardas829 pavarde829        5.3          4
+vardas832 pavarde832       5.08          3
+vardas833 pavarde833       5.42          3
+vardas834 pavarde834       4.28          3
+vardas836 pavarde836       5.57          4
+vardas837 pavarde837       5.91          5
+vardas840 pavarde840       4.86          4
+vardas841 pavarde841       5.57          4
+vardas843 pavarde843       4.82          2
+vardas844 pavarde844       5.16          3
+vardas845 pavarde845       5.43          4
+vardas850 pavarde850       4.32          2
+vardas853 pavarde853       5.16          3
+vardas858 pavarde858       3.98          2
+vardas859 pavarde859          4          2
+vardas861 pavarde861        5.2          3
+vardas862 pavarde862       5.24          2
+vardas867 pavarde867       5.26          4
+vardas868 pavarde868       5.45          2
+vardas871 pavarde871       5.32          3
+vardas872 pavarde872       5.66          4
+vardas873 pavarde873       5.93          6
+vardas874 pavarde874       4.59          3
+vardas877 pavarde877       4.86          2
+vardas879 pavarde879       5.75          5
+vardas881 pavarde881       4.07          2
+vardas882 pavarde882       3.61          2
+vardas883 pavarde883       5.72          4
+vardas884 pavarde884       5.94          3
+vardas886 pavarde886       4.52          3
+vardas901 pavarde901       5.46          3
+vardas918 pavarde918       5.17          2
+vardas923 pavarde923       5.86          4
+vardas930 pavarde930       5.67          5
+vardas932 pavarde932       4.51          3
+vardas936 pavarde936       4.28          3
+vardas937 pavarde937       3.86          1
+vardas941 pavarde941       5.88          4
+vardas942 pavarde942       5.78          3
+vardas943 pavarde943       4.76          3
+vardas944 pavarde944       5.55          4
+vardas946 pavarde946       5.82          2
+vardas947 pavarde947       5.36          4
+vardas948 pavarde948       4.67          2
+vardas952 pavarde952       5.73          4
+vardas955 pavarde955       5.09          3
+vardas960 pavarde960       5.01          4
+vardas970 pavarde970        4.6          2
+vardas971 pavarde971       3.32          1
+vardas974 pavarde974       4.84          2
+vardas975 pavarde975       5.77          5
+vardas978 pavarde978       5.79          4
+vardas979 pavarde979       5.56          4
+vardas980 pavarde980       5.51          3
+
+kieti:
+Vardas    Pavarde      vidurkis     mediana
+vardas1   pavarde1        6.4          6
+vardas2   pavarde2       8.28          8
+vardas3   pavarde3       6.46          3
+vardas4   pavarde4       7.49          7
+vardas5   pavarde5        8.3          7
+vardas6   pavarde6       9.06          9
+vardas7   pavarde7       8.81          7
+vardas8   pavarde8       7.96          6
+vardas10  pavarde10       7.36          7
+vardas11  pavarde11       6.67          6
+vardas15  pavarde15       6.35          4
+vardas16  pavarde16       6.27          5
+vardas17  pavarde17       7.65          8
+vardas18  pavarde18       6.13          5
+vardas19  pavarde19       7.03          4
+vardas21  pavarde21       8.96          9
+vardas24  pavarde24       7.55          6
+vardas25  pavarde25       6.51          5
+vardas26  pavarde26        7.1          6
+vardas28  pavarde28        6.6          6
+vardas29  pavarde29       7.72          7
+vardas30  pavarde30       6.14          4
+vardas32  pavarde32       8.61          7
+vardas33  pavarde33       7.52          7
+vardas34  pavarde34        7.9          6
+vardas35  pavarde35       7.78          7
+vardas38  pavarde38       7.01          7
+vardas41  pavarde41       6.08          3
+vardas42  pavarde42       6.42          5
+vardas43  pavarde43       9.08          9
+vardas44  pavarde44       7.02          4
+vardas45  pavarde45        8.2          8
+vardas46  pavarde46       6.44          3
+vardas48  pavarde48       8.22          8
+vardas49  pavarde49       8.84          9
+vardas50  pavarde50       6.97          6
+vardas51  pavarde51       8.79          7
+vardas52  pavarde52       6.56          6
+vardas53  pavarde53       6.31          5
+vardas54  pavarde54       7.26          5
+vardas55  pavarde55       7.45          7
+vardas56  pavarde56       7.29          5
+vardas57  pavarde57       7.46          5
+vardas58  pavarde58       6.29          4
+vardas59  pavarde59       8.06          7
+vardas60  pavarde60       7.21          4
+vardas61  pavarde61       6.64          6
+vardas62  pavarde62       6.73          5
+vardas63  pavarde63       7.95          9
+vardas64  pavarde64       6.79          5
+vardas67  pavarde67        7.9          6
+vardas68  pavarde68       6.18          3
+vardas69  pavarde69       8.24          8
+vardas70  pavarde70       8.85          7
+vardas71  pavarde71       7.17          7
+vardas73  pavarde73       6.97          4
+vardas75  pavarde75       8.04          8
+vardas76  pavarde76       7.61          7
+vardas77  pavarde77       7.92          8
+vardas78  pavarde78       7.78          6
+vardas79  pavarde79       6.56          3
+vardas80  pavarde80       6.11          4
+vardas83  pavarde83       8.18          8
+vardas84  pavarde84       8.44          8
+vardas86  pavarde86        6.9          5
+vardas87  pavarde87       6.38          5
+vardas88  pavarde88       7.28          7
+vardas89  pavarde89       7.46          6
+vardas90  pavarde90       6.69          4
+vardas91  pavarde91       6.34          3
+vardas92  pavarde92       7.67          5
+vardas93  pavarde93       7.93          6
+vardas94  pavarde94       6.59          3
+vardas96  pavarde96       6.34          5
+vardas97  pavarde97       7.67          6
+vardas100 pavarde100       6.32          4
+vardas101 pavarde101       6.66          7
+vardas102 pavarde102       8.93         10
+vardas103 pavarde103       7.79          8
+vardas107 pavarde107       6.66          7
+vardas109 pavarde109       7.11          6
+vardas110 pavarde110       8.82          9
+vardas111 pavarde111       7.36          6
+vardas112 pavarde112       6.67          4
+vardas113 pavarde113       6.13          4
+vardas114 pavarde114       8.23          7
+vardas115 pavarde115       7.05          5
+vardas116 pavarde116       7.01          6
+vardas117 pavarde117          7          6
+vardas118 pavarde118        6.6          6
+vardas119 pavarde119       6.52          6
+vardas120 pavarde120        7.5          6
+vardas121 pavarde121        7.3          7
+vardas122 pavarde122       7.06          6
+vardas123 pavarde123       8.01          7
+vardas124 pavarde124          8          7
+vardas125 pavarde125          7          4
+vardas126 pavarde126        6.6          6
+vardas127 pavarde127       7.32          6
+vardas128 pavarde128       8.06          5
+vardas129 pavarde129       7.21          4
+vardas130 pavarde130       6.24          2
+vardas132 pavarde132       6.17          4
+vardas133 pavarde133       6.23          3
+vardas135 pavarde135       6.45          6
+vardas136 pavarde136       7.49          7
+vardas137 pavarde137       10.3         10
+vardas138 pavarde138       8.86          7
+vardas139 pavarde139       8.37          7
+vardas141 pavarde141       7.09          7
+vardas143 pavarde143       6.88          6
+vardas145 pavarde145       7.04          6
+vardas147 pavarde147       6.24          5
+vardas149 pavarde149       6.17          4
+vardas150 pavarde150       6.43          4
+vardas151 pavarde151       7.89          6
+vardas152 pavarde152       6.78          6
+vardas153 pavarde153       7.16          6
+vardas155 pavarde155       6.49          7
+vardas156 pavarde156        6.3          5
+vardas157 pavarde157       6.06          6
+vardas158 pavarde158       8.81          7
+vardas160 pavarde160       9.07          9
+vardas161 pavarde161       9.01          6
+vardas162 pavarde162        6.2          2
+vardas163 pavarde163       7.04          4
+vardas164 pavarde164       8.01          5
+vardas165 pavarde165        7.6          6
+vardas166 pavarde166       6.12          4
+vardas168 pavarde168       7.84          7
+vardas169 pavarde169       8.17          6
+vardas170 pavarde170       7.63          6
+vardas171 pavarde171       8.13          8
+vardas172 pavarde172       6.83          5
+vardas173 pavarde173       6.17          5
+vardas176 pavarde176       7.19          6
+vardas177 pavarde177       7.64          6
+vardas178 pavarde178       7.33          5
+vardas180 pavarde180       6.89          6
+vardas181 pavarde181       7.38          6
+vardas183 pavarde183       6.66          6
+vardas184 pavarde184       7.73          5
+vardas185 pavarde185       9.95          9
+vardas187 pavarde187       6.52          6
+vardas191 pavarde191       8.64          9
+vardas192 pavarde192       6.73          4
+vardas193 pavarde193       7.15          4
+vardas194 pavarde194       6.63          3
+vardas196 pavarde196       6.15          6
+vardas197 pavarde197       6.03          5
+vardas198 pavarde198       8.01          8
+vardas199 pavarde199        7.2          4
+vardas200 pavarde200       6.64          4
+vardas201 pavarde201       7.73          7
+vardas202 pavarde202       6.75          6
+vardas203 pavarde203       7.15          6
+vardas204 pavarde204       6.23          4
+vardas207 pavarde207       8.51          9
+vardas208 pavarde208        6.1          3
+vardas209 pavarde209       7.02          5
+vardas210 pavarde210        8.2          8
+vardas212 pavarde212       7.45          5
+vardas213 pavarde213       7.69          5
+vardas215 pavarde215       7.87          9
+vardas216 pavarde216       6.57          4
+vardas218 pavarde218       7.02          7
+vardas219 pavarde219        6.2          4
+vardas221 pavarde221       8.53          8
+vardas225 pavarde225       6.46          4
+vardas228 pavarde228       6.52          4
+vardas231 pavarde231       9.42          9
+vardas232 pavarde232       7.28          6
+vardas233 pavarde233       6.86          6
+vardas234 pavarde234       7.17          7
+vardas235 pavarde235       6.23          6
+vardas236 pavarde236       6.25          6
+vardas237 pavarde237       6.05          4
+vardas239 pavarde239       10.5         10
+vardas240 pavarde240       10.5          9
+vardas241 pavarde241        6.1          5
+vardas242 pavarde242       7.02          5
+vardas243 pavarde243        7.6          8
+vardas244 pavarde244       7.12          5
+vardas245 pavarde245       10.4          9
+vardas246 pavarde246       7.68          6
+vardas248 pavarde248       7.27          7
+vardas249 pavarde249       6.45          6
+vardas251 pavarde251       8.26          7
+vardas252 pavarde252       6.45          6
+vardas253 pavarde253       6.29          5
+vardas255 pavarde255       6.49          6
+vardas256 pavarde256        7.1          6
+vardas257 pavarde257       7.22          6
+vardas258 pavarde258       7.44          6
+vardas259 pavarde259       6.49          4
+vardas260 pavarde260        6.3          5
+vardas261 pavarde261       10.3          9
+vardas262 pavarde262       7.05          5
+vardas263 pavarde263       6.61          5
+vardas264 pavarde264       7.72          5
+vardas265 pavarde265       9.34          8
+vardas266 pavarde266       7.47          5
+vardas267 pavarde267       7.89          7
+vardas268 pavarde268       9.18          9
+vardas269 pavarde269       6.84          5
+vardas270 pavarde270       8.17          6
+vardas271 pavarde271       7.03          6
+vardas273 pavarde273          6          5
+vardas274 pavarde274        8.2          7
+vardas275 pavarde275       8.04          7
+vardas276 pavarde276       8.01          7
+vardas277 pavarde277          9          8
+vardas278 pavarde278        7.4          5
+vardas279 pavarde279       8.08          7
+vardas280 pavarde280       6.62          5
+vardas281 pavarde281       6.12          4
+vardas283 pavarde283       6.52          5
+vardas284 pavarde284        6.9          5
+vardas287 pavarde287       6.96          4
+vardas291 pavarde291       8.76          8
+vardas292 pavarde292       6.75          4
+vardas293 pavarde293       7.95          7
+vardas294 pavarde294       8.19          7
+vardas295 pavarde295       6.84          4
+vardas296 pavarde296       6.77          5
+vardas298 pavarde298       6.03          5
+vardas301 pavarde301       8.74          8
+vardas303 pavarde303       7.31          8
+vardas304 pavarde304       7.06          7
+vardas306 pavarde306          7          8
+vardas307 pavarde307        7.8          7
+vardas308 pavarde308       6.96          4
+vardas310 pavarde310       7.28          7
+vardas313 pavarde313       6.59          7
+vardas314 pavarde314       8.12          9
+vardas315 pavarde315       9.22         10
+vardas316 pavarde316       8.04          7
+vardas317 pavarde317       6.01          5
+vardas318 pavarde318        7.6          9
+vardas320 pavarde320        8.5          8
+vardas321 pavarde321        7.3          6
+vardas322 pavarde322       7.66          6
+vardas326 pavarde326       7.55          7
+vardas330 pavarde330       6.49          5
+vardas331 pavarde331        6.9          8
+vardas337 pavarde337       8.32          7
+vardas338 pavarde338       6.86          5
+vardas342 pavarde342       9.42          9
+vardas343 pavarde343       10.1         10
+vardas345 pavarde345       8.36          8
+vardas347 pavarde347       7.37          6
+vardas348 pavarde348       6.47          5
+vardas349 pavarde349       7.89          6
+vardas354 pavarde354       6.78          7
+vardas355 pavarde355       6.36          5
+vardas356 pavarde356       8.87          7
+vardas357 pavarde357       8.77          8
+vardas359 pavarde359       6.91          6
+vardas360 pavarde360       6.98          4
+vardas361 pavarde361        6.6          5
+vardas362 pavarde362       6.32          6
+vardas364 pavarde364       7.45          6
+vardas365 pavarde365       6.69          5
+vardas367 pavarde367       6.71          4
+vardas368 pavarde368       8.34          9
+vardas369 pavarde369       6.67          5
+vardas370 pavarde370       6.33          5
+vardas371 pavarde371       8.47          8
+vardas372 pavarde372       8.49          7
+vardas373 pavarde373        8.3          8
+vardas374 pavarde374       8.06          7
+vardas375 pavarde375       8.61          6
+vardas376 pavarde376       8.72          6
+vardas377 pavarde377       7.54          5
+vardas378 pavarde378       7.11          5
+vardas379 pavarde379       9.02          8
+vardas380 pavarde380        7.2          4
+vardas383 pavarde383       7.87          6
+vardas384 pavarde384       7.17          4
+vardas386 pavarde386       7.33          8
+vardas387 pavarde387       7.87          7
+vardas388 pavarde388       6.57          7
+vardas390 pavarde390       7.82          6
+vardas391 pavarde391       7.96          7
+vardas392 pavarde392       9.59          9
+vardas393 pavarde393       6.32          3
+vardas394 pavarde394       7.66          7
+vardas396 pavarde396       7.15          7
+vardas397 pavarde397       9.03          7
+vardas398 pavarde398       9.01          9
+vardas399 pavarde399        8.8          8
+vardas400 pavarde400       8.76          8
+vardas401 pavarde401       9.15          7
+vardas402 pavarde402       7.43          6
+vardas403 pavarde403       9.49          8
+vardas404 pavarde404        7.1          6
+vardas405 pavarde405       9.22          9
+vardas406 pavarde406       9.04          8
+vardas407 pavarde407       6.41          3
+vardas408 pavarde408       6.88          5
+vardas409 pavarde409       7.38          9
+vardas410 pavarde410       7.68          5
+vardas412 pavarde412       7.27          6
+vardas413 pavarde413       7.85          6
+vardas416 pavarde416       6.27          7
+vardas417 pavarde417       7.65          7
+vardas418 pavarde418       7.33          6
+vardas419 pavarde419       7.47          6
+vardas420 pavarde420       7.29          6
+vardas421 pavarde421       9.06          7
+vardas422 pavarde422       8.21          7
+vardas423 pavarde423       6.24          3
+vardas424 pavarde424       7.05          6
+vardas425 pavarde425       7.01          5
+vardas426 pavarde426          6          6
+vardas427 pavarde427          8          7
+vardas428 pavarde428        7.6          7
+vardas431 pavarde431       9.48          8
+vardas432 pavarde432        6.3          3
+vardas433 pavarde433       7.46          7
+vardas434 pavarde434       6.69          6
+vardas435 pavarde435       6.34          3
+vardas436 pavarde436       6.47          5
+vardas438 pavarde438       7.74          9
+vardas439 pavarde439       8.75          8
+vardas440 pavarde440       6.95          5
+vardas441 pavarde441       9.19          8
+vardas442 pavarde442       7.24          6
+vardas444 pavarde444       8.21         10
+vardas445 pavarde445       8.04          5
+vardas446 pavarde446       8.61          6
+vardas447 pavarde447       6.92          6
+vardas448 pavarde448       7.38          6
+vardas449 pavarde449       7.48          5
+vardas450 pavarde450        6.7          5
+vardas451 pavarde451       6.94          6
+vardas453 pavarde453       6.08          6
+vardas454 pavarde454       7.22          7
+vardas455 pavarde455       7.44          6
+vardas456 pavarde456       7.49          6
+vardas457 pavarde457        6.7          5
+vardas461 pavarde461       6.16          5
+vardas462 pavarde462       6.43          7
+vardas465 pavarde465       6.52          6
+vardas466 pavarde466        9.7         10
+vardas468 pavarde468       6.63          5
+vardas469 pavarde469       6.73          5
+vardas470 pavarde470       8.55          8
+vardas471 pavarde471       7.11          6
+vardas473 pavarde473       6.64          7
+vardas474 pavarde474       7.73          6
+vardas475 pavarde475       7.55          8
+vardas476 pavarde476       7.91          8
+vardas478 pavarde478          8          8
+vardas479 pavarde479        9.4          9
+vardas480 pavarde480       8.08          6
+vardas481 pavarde481       7.62          6
+vardas482 pavarde482       7.72          6
+vardas483 pavarde483       7.14          4
+vardas490 pavarde490       6.62          6
+vardas491 pavarde491       6.12          5
+vardas492 pavarde492       6.62          6
+vardas493 pavarde493       6.92          7
+vardas496 pavarde496       7.13          6
+vardas497 pavarde497       7.63          7
+vardas498 pavarde498       8.13          7
+vardas499 pavarde499       8.63          7
+vardas502 pavarde502        7.5          6
+vardas503 pavarde503        7.9          7
+vardas504 pavarde504       8.78          7
+vardas505 pavarde505       8.56          7
+vardas507 pavarde507        6.1          5
+vardas509 pavarde509          7          7
+vardas510 pavarde510          7          6
+vardas511 pavarde511          9          7
+vardas512 pavarde512        6.2          5
+vardas513 pavarde513       6.44          6
+vardas514 pavarde514       7.89          8
+vardas515 pavarde515       9.18          9
+vardas516 pavarde516       8.04          8
+vardas517 pavarde517       6.61          4
+vardas518 pavarde518       6.32          5
+vardas519 pavarde519       6.86          6
+vardas521 pavarde521       6.75          5
+vardas522 pavarde522       6.15          6
+vardas523 pavarde523       6.83          4
+vardas525 pavarde525       9.39          8
+vardas526 pavarde526       8.08          8
+vardas527 pavarde527       9.02          7
+vardas528 pavarde528        7.8          7
+vardas529 pavarde529       6.96          5
+vardas530 pavarde530       6.19          5
+vardas531 pavarde531       6.04          4
+vardas533 pavarde533       6.76          8
+vardas535 pavarde535       6.39          5
+vardas536 pavarde536       6.28          6
+vardas537 pavarde537       8.86          9
+vardas538 pavarde538       8.37          7
+vardas539 pavarde539       7.27          6
+vardas540 pavarde540       6.65          5
+vardas541 pavarde541       6.93          5
+vardas542 pavarde542       6.19          4
+vardas543 pavarde543       9.24          8
+vardas544 pavarde544       8.45          6
+vardas545 pavarde545       8.29          7
+vardas546 pavarde546       7.06          5
+vardas547 pavarde547       7.01          5
+vardas548 pavarde548        7.4          7
+vardas549 pavarde549       8.08          6
+vardas550 pavarde550       6.42          4
+vardas552 pavarde552       6.58          6
+vardas553 pavarde553       8.12          8
+vardas554 pavarde554       7.42          7
+vardas555 pavarde555       8.88         10
+vardas556 pavarde556       9.58          9
+vardas557 pavarde557       6.92          4
+vardas558 pavarde558       8.78          8
+vardas559 pavarde559       7.76          7
+vardas560 pavarde560       6.95          6
+vardas561 pavarde561       8.59          7
+vardas562 pavarde562       6.52          5
+vardas563 pavarde563        7.3          5
+vardas565 pavarde565       6.93          6
+vardas566 pavarde566       7.19          5
+vardas568 pavarde568       9.13         10
+vardas569 pavarde569       7.43          7
+vardas570 pavarde570       6.29          6
+vardas571 pavarde571       6.66          4
+vardas572 pavarde572       7.33          6
+vardas573 pavarde573       9.07          9
+vardas574 pavarde574       9.81          9
+vardas575 pavarde575       9.96          9
+vardas576 pavarde576       6.79          5
+vardas577 pavarde577       6.76          7
+vardas578 pavarde578       7.15          7
+vardas579 pavarde579       7.43          6
+vardas582 pavarde582       6.64          6
+vardas583 pavarde583       9.93          9
+vardas584 pavarde584       6.99          2
+vardas585 pavarde585        6.2          5
+vardas586 pavarde586       7.44          6
+vardas587 pavarde587       6.89          5
+vardas588 pavarde588       6.78          6
+vardas589 pavarde589       6.76          5
+vardas591 pavarde591       9.11          8
+vardas592 pavarde592       6.02          3
+vardas593 pavarde593        8.6          7
+vardas594 pavarde594       7.12          6
+vardas595 pavarde595       7.82          7
+vardas596 pavarde596       7.76          6
+vardas597 pavarde597       8.35          7
+vardas598 pavarde598       7.27          4
+vardas599 pavarde599       7.65          7
+vardas600 pavarde600       7.93          7
+vardas601 pavarde601       7.99          8
+vardas602 pavarde602        7.6          7
+vardas603 pavarde603       8.72          7
+vardas604 pavarde604       9.14          7
+vardas605 pavarde605       9.03          8
+vardas606 pavarde606       7.01          5
+vardas607 pavarde607        7.8          7
+vardas608 pavarde608       7.56          6
+vardas609 pavarde609       7.51          8
+vardas610 pavarde610        6.3          4
+vardas611 pavarde611       6.66          5
+vardas612 pavarde612       9.13          8
+vardas613 pavarde613       7.43          4
+vardas614 pavarde614       7.29          6
+vardas615 pavarde615       8.06          6
+vardas616 pavarde616       6.21          4
+vardas618 pavarde618       7.73          9
+vardas619 pavarde619       7.35          8
+vardas621 pavarde621       8.09          7
+vardas622 pavarde622       8.62          8
+vardas624 pavarde624       6.58          6
+vardas625 pavarde625       8.72          7
+vardas626 pavarde626       6.14          5
+vardas627 pavarde627       6.63          6
+vardas628 pavarde628       8.33          6
+vardas629 pavarde629       6.67          5
+vardas630 pavarde630       9.93          9
+vardas631 pavarde631       7.39          7
+vardas632 pavarde632       7.08          6
+vardas633 pavarde633       8.02          8
+vardas634 pavarde634        7.4          7
+vardas635 pavarde635       7.08          4
+vardas637 pavarde637       6.36          7
+vardas641 pavarde641       6.91          5
+vardas644 pavarde644       6.31          6
+vardas645 pavarde645       7.26          7
+vardas650 pavarde650       8.19          8
+vardas651 pavarde651       6.44          4
+vardas653 pavarde653       7.34          6
+vardas654 pavarde654       7.47          6
+vardas656 pavarde656       8.14          7
+vardas657 pavarde657       8.63          8
+vardas658 pavarde658       8.53          7
+vardas659 pavarde659       6.11          4
+vardas662 pavarde662       6.51          5
+vardas667 pavarde667        6.8          5
+vardas669 pavarde669       6.99          7
+vardas670 pavarde670        6.2          6
+vardas672 pavarde672       8.77         10
+vardas673 pavarde673       7.75          6
+vardas675 pavarde675       6.39          6
+vardas676 pavarde676       6.08          3
+vardas677 pavarde677       8.82          9
+vardas678 pavarde678       6.56          5
+vardas679 pavarde679       7.31          5
+vardas680 pavarde680       8.66          8
+vardas682 pavarde682       6.39          4
+vardas683 pavarde683       7.48          7
+vardas685 pavarde685       6.02          5
+vardas686 pavarde686        7.8          7
+vardas687 pavarde687       6.16          4
+vardas688 pavarde688       6.03          4
+vardas689 pavarde689       7.01          6
+vardas690 pavarde690        9.4          9
+vardas691 pavarde691       7.48          7
+vardas695 pavarde695       6.92          8
+vardas696 pavarde696       8.58          9
+vardas697 pavarde697       7.52          6
+vardas698 pavarde698        6.1          5
+vardas700 pavarde700       8.28          7
+vardas701 pavarde701       8.26          8
+vardas702 pavarde702       7.85          6
+vardas703 pavarde703       7.57          6
+vardas704 pavarde704       7.71          8
+vardas705 pavarde705       6.94          6
+vardas706 pavarde706       8.19          9
+vardas707 pavarde707       6.84          5
+vardas708 pavarde708       7.57          6
+vardas710 pavarde710        8.1          8
+vardas711 pavarde711       7.62          5
+vardas712 pavarde712       9.52          8
+vardas713 pavarde713        6.9          4
+vardas717 pavarde717          9          8
+vardas719 pavarde719          7          6
+vardas720 pavarde720          7          5
+vardas721 pavarde721        7.6          6
+vardas725 pavarde725       7.18          7
+vardas726 pavarde726       6.64          6
+vardas729 pavarde729       6.12          4
+vardas730 pavarde730       7.02          5
+vardas733 pavarde733       8.84         10
+vardas734 pavarde734       9.97          9
+vardas735 pavarde735       6.19          3
+vardas736 pavarde736       7.64          8
+vardas739 pavarde739       7.63          6
+vardas741 pavarde741       6.39          6
+vardas742 pavarde742       8.68          8
+vardas743 pavarde743       8.54          6
+vardas745 pavarde745       6.54          8
+vardas747 pavarde747       7.14          6
+vardas749 pavarde749       6.69          5
+vardas750 pavarde750       8.14          8
+vardas751 pavarde751       10.2          9
+vardas752 pavarde752       7.65          6
+vardas756 pavarde756       7.36          6
+vardas757 pavarde757       6.87          5
+vardas759 pavarde759       9.47         10
+vardas760 pavarde760       8.69          6
+vardas763 pavarde763       8.17          7
+vardas764 pavarde764       8.03          7
+vardas766 pavarde766       6.24          5
+vardas769 pavarde769       7.15          5
+vardas770 pavarde770       6.63          5
+vardas771 pavarde771       7.13          6
+vardas772 pavarde772       6.63          5
+vardas773 pavarde773       6.93          5
+vardas774 pavarde774       7.59          7
+vardas775 pavarde775       8.32          7
+vardas776 pavarde776       7.86          7
+vardas779 pavarde779       6.85          5
+vardas780 pavarde780       8.17          8
+vardas781 pavarde781       7.83          7
+vardas782 pavarde782       6.97          6
+vardas783 pavarde783       6.79          5
+vardas786 pavarde786       7.15          7
+vardas787 pavarde787       8.83          9
+vardas788 pavarde788       6.97          5
+vardas789 pavarde789       7.39          5
+vardas790 pavarde790       6.48          4
+vardas791 pavarde791        6.7          4
+vardas792 pavarde792       6.94          7
+vardas794 pavarde794       7.32          6
+vardas795 pavarde795       7.06          5
+vardas797 pavarde797       9.32          8
+vardas798 pavarde798       8.66          7
+vardas800 pavarde800       8.19          7
+vardas801 pavarde801       7.44          5
+vardas802 pavarde802       7.29          5
+vardas803 pavarde803       8.46          7
+vardas804 pavarde804       7.49          7
+vardas805 pavarde805        8.1          7
+vardas806 pavarde806       6.82          6
+vardas807 pavarde807       6.56          4
+vardas808 pavarde808       8.51          8
+vardas809 pavarde809        6.5          5
+vardas810 pavarde810        7.5          7
+vardas811 pavarde811        6.1          3
+vardas812 pavarde812       6.82          5
+vardas816 pavarde816       8.83          9
+vardas819 pavarde819          7          6
+vardas820 pavarde820        6.2          5
+vardas823 pavarde823       6.77          6
+vardas824 pavarde824       7.15          6
+vardas825 pavarde825       6.83          5
+vardas826 pavarde826       6.77          6
+vardas827 pavarde827       6.55          6
+vardas830 pavarde830       7.06          6
+vardas831 pavarde831       6.41          3
+vardas835 pavarde835       6.86          7
+vardas838 pavarde838       6.58          5
+vardas839 pavarde839       6.32          5
+vardas842 pavarde842       7.11          5
+vardas846 pavarde846       6.09          5
+vardas847 pavarde847       7.42          7
+vardas848 pavarde848       7.08          6
+vardas849 pavarde849       8.62          9
+vardas851 pavarde851       6.06          5
+vardas852 pavarde852       8.81         10
+vardas854 pavarde854       6.23          6
+vardas855 pavarde855       6.25          4
+vardas856 pavarde856       7.45          6
+vardas857 pavarde857       6.89          5
+vardas860 pavarde860          7          8
+vardas863 pavarde863       6.65          4
+vardas864 pavarde864       6.73          5
+vardas865 pavarde865       7.55          6
+vardas866 pavarde866       8.31          8
+vardas869 pavarde869       6.09          5
+vardas870 pavarde870       6.62          6
+vardas875 pavarde875       8.52          9
+vardas876 pavarde876        9.3          8
+vardas878 pavarde878       7.77          8
+vardas880 pavarde880       7.35          8
+vardas885 pavarde885       6.59          6
+vardas887 pavarde887        6.9          6
+vardas888 pavarde888       8.78          8
+vardas889 pavarde889       7.76          7
+vardas890 pavarde890       7.55          5
+vardas891 pavarde891       7.71          7
+vardas892 pavarde892       7.54          6
+vardas893 pavarde893       8.91          8
+vardas894 pavarde894       7.38          7
+vardas895 pavarde895       6.08          4
+vardas896 pavarde896       6.02          4
+vardas897 pavarde897        7.4          7
+vardas898 pavarde898       9.08          8
+vardas899 pavarde899       9.42          9
+vardas900 pavarde900       7.28          6
+vardas902 pavarde902       7.09          7
+vardas903 pavarde903       8.42          8
+vardas904 pavarde904       7.68          6
+vardas905 pavarde905       6.94          4
+vardas906 pavarde906       7.59          5
+vardas907 pavarde907       9.52          8
+vardas908 pavarde908        8.3          6
+vardas909 pavarde909       7.26          6
+vardas910 pavarde910       9.25         10
+vardas911 pavarde911       8.85          6
+vardas912 pavarde912       6.97          4
+vardas913 pavarde913       6.59          5
+vardas914 pavarde914       8.32          8
+vardas915 pavarde915       7.86          8
+vardas916 pavarde916       6.17          5
+vardas917 pavarde917       7.83          8
+vardas919 pavarde919       6.23          5
+vardas920 pavarde920       7.45          6
+vardas921 pavarde921       6.49          4
+vardas922 pavarde922        6.3          6
+vardas924 pavarde924       7.97          6
+vardas925 pavarde925       7.59          5
+vardas926 pavarde926       7.12          5
+vardas927 pavarde927       6.42          5
+vardas928 pavarde928       6.68          6
+vardas929 pavarde929       7.34          5
+vardas931 pavarde931       6.53          5
+vardas933 pavarde933        7.5          7
+vardas934 pavarde934        6.9          4
+vardas935 pavarde935       7.38          8
+vardas938 pavarde938       6.97          6
+vardas939 pavarde939       8.99          9
+vardas940 pavarde940        7.4          5
+vardas945 pavarde945       6.11          4
+vardas949 pavarde949       6.53          5
+vardas950 pavarde950       8.31          8
+vardas951 pavarde951       6.66          5
+vardas953 pavarde953       8.15          7
+vardas954 pavarde954       7.43          5
+vardas956 pavarde956       6.22          6
+vardas957 pavarde957       6.84          4
+vardas958 pavarde958       7.37          6
+vardas959 pavarde959       7.07          5
+vardas961 pavarde961        7.8          7
+vardas962 pavarde962       6.16          4
+vardas963 pavarde963       6.03          2
+vardas964 pavarde964       6.41          5
+vardas965 pavarde965       7.88          9
+vardas966 pavarde966       9.38         10
+vardas967 pavarde967       9.68          8
+vardas968 pavarde968       7.94          7
+vardas969 pavarde969       7.99          5
+vardas972 pavarde972       6.06          6
+vardas973 pavarde973       7.21          5
+vardas976 pavarde976       7.75          8
+vardas977 pavarde977       6.95          6
+vardas981 pavarde981        6.7          5
+vardas982 pavarde982       6.74          6
+vardas983 pavarde983       6.15          3
+vardas984 pavarde984       7.03          6
+vardas985 pavarde985       8.41          8
+vardas986 pavarde986       9.08          8
+vardas987 pavarde987       9.22          7
+vardas988 pavarde988       7.84          7
+vardas989 pavarde989       6.37          4
+vardas990 pavarde990       6.67          5
+vardas991 pavarde991       8.33          8
+vardas992 pavarde992       8.07          6
+vardas993 pavarde993       8.81          8
+vardas994 pavarde994       8.36          8
+vardas995 pavarde995       8.27          6
+vardas996 pavarde996       7.65          6
+vardas997 pavarde997       7.33          5
+vardas998 pavarde998       6.47          3
+vardas999 pavarde999       7.09          5
+vardas1000pavarde1000       8.82          7

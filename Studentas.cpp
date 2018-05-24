@@ -3,6 +3,8 @@
 //
 
 #include <algorithm>
+#include <iostream>
+#include <fstream>
 #include "Studentas.h"
 void Studentas::setVardas(string v)
 {this->vardas = v;}
@@ -36,3 +38,8 @@ bool Studentas::operator> (const Studentas& b)
 {
     return vardas > b.vardas;
 }
+/*std::ofstream& operator<<(std::ofstream& fr, const Studentas& a)
+{
+    fr<<a.vardas<<"   "<<a.pavarde<<"  "<<a.vidurkis<<std::endl;
+    return fr;
+}*/

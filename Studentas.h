@@ -32,8 +32,10 @@ class Studentas
     {
         return a.Vardas() < b.Vardas();
     }*/
+
     bool operator< (const Studentas& b);
     bool operator> (const Studentas& b);
+    //friend std::ostream& operator<<(std::ostream&, const Studentas&);
 private:
     string vardas;
     string pavarde;
