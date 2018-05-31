@@ -1,0 +1,8 @@
+//
+// Created by MD on 2018-05-31.
+//
+
+#ifndef TIKRAI_3_PROGRAMA_VECTOR_H
+#define TIKRAI_3_PROGRAMA_VECTOR_H
+
+#endif //TIKRAI_3_PROGRAMA_VECTOR_H
